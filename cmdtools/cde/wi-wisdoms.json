@@ -1,0 +1,523 @@
+[
+	{
+		"name": "about",
+		"display": "广州连元信息科技有限公司",
+		"site": "site.wisdoms",
+		"sort": 0,
+		"target": "_self",
+		"secondaries": {
+			"gsjs": {
+				"name": "gsjs",
+				"pdisplay": "公司介绍",
+				"display": "公司介绍",
+				"href": "http://cjlns.com",
+				"tips": "公司介绍",
+				"sort": 0,
+				"target": "_self",
+				"tertiaries": {
+					"jj": {
+						"name": "jj",
+						"tips": "简介",
+						"display": "简介",
+						"sort": 0,
+						"target": "_self"
+					},
+					"xc": {
+						"name": "xc",
+						"tips": "公司相册",
+						"display": "公司相册",
+						"sort": 1,
+						"target": "_self"
+					}
+				}
+			},"gsyj": {
+				"name": "gsyj",
+				"pdisplay": "公司愿景",
+				"display": "公司愿景",
+				"href": "http://cjlns.com",
+				"tips": "公司愿景",
+				"sort": 0,
+				"target": "_self",
+				"tertiaries": {
+					"mb": {
+						"name": "mb",
+						"tips": "目标",
+						"display": "目标",
+						"sort": 0,
+						"target": "_self"
+					},
+					"zc": {
+						"name": "zc",
+						"tips": "董事致辞",
+						"display": "董事致辞",
+						"sort": 1,
+						"target": "_self"
+					}
+				}
+			},"lxhj": {
+				"name": "lxhj",
+				"pdisplay": "联系连元",
+				"display": "联系连元",
+				"href": "http://cjlns.com",
+				"tips": "联系连元",
+				"sort": 0,
+				"target": "_self",
+				"tertiaries": {
+					"lxfs": {
+						"name": "lxfs",
+						"tips": "联系方式",
+						"display": "联系方式",
+						"sort": 0,
+						"target": "_self"
+					}
+				}
+			},"zzyry": {
+				"name": "zzyry",
+				"pdisplay": "资质与荣誉",
+				"display": "资质与荣誉",
+				"href": "http://cjlns.com",
+				"tips": "联系连元",
+				"sort": 0,
+				"target": "_self",
+				"tertiaries": {
+					"zj": {
+						"name": "zj",
+						"tips": "资质",
+						"display": "资质",
+						"sort": 0,
+						"target": "_self"
+					},"zl": {
+						"name": "zl",
+						"tips": "专利",
+						"display": "专利",
+						"sort": 0,
+						"target": "_self"
+					},"zs": {
+						"name": "zs",
+						"tips": "荣誉证书",
+						"display": "荣誉证书",
+						"sort": 0,
+						"target": "_self"
+					}
+				}
+			},"hzhb": {
+				"name": "hzhb",
+				"pdisplay": "合作伙伴",
+				"display": "合作伙伴",
+				"href": "http://cjlns.com",
+				"tips": "合作伙伴",
+				"sort": 0,
+				"target": "_self",
+				"tertiaries": {
+					"hzys": {
+						"name": "hzys",
+						"tips": "合作院校",
+						"display": "合作院校",
+						"sort": 0,
+						"target": "_self"
+					},"hzyfqy": {
+						"name": "hzyfqy",
+						"tips": "合作研发企业",
+						"display": "合作研发企业",
+						"sort": 0,
+						"target": "_self"
+					},"ywhb": {
+						"name": "ywhb",
+						"tips": "业务伙伴",
+						"display": "业务伙伴",
+						"sort": 0,
+						"target": "_self"
+					}
+				}
+			},"xwdt": {
+				"name": "xwdt",
+				"pdisplay": "新闻动态",
+				"display": "新闻动态",
+				"href": "http://cjlns.com",
+				"tips": "新闻动态",
+				"sort": 0,
+				"target": "_self",
+				"tertiaries": {
+					"gsxw": {
+						"name": "gsxw",
+						"tips": "公司新闻",
+						"display": "公司新闻",
+						"sort": 0,
+						"target": "_self"
+					},"hyxw": {
+						"name": "hyxw",
+						"tips": "行业新闻",
+						"display": "行业新闻",
+						"sort": 0,
+						"target": "_self"
+					}
+				}
+			}
+		}
+	},
+	{
+		"name": "wiworld",
+		"display": "连元世界",
+		"site": "site.wisdoms",
+		"sort": 1,
+		"target": "_self",
+		"secondaries": {
+			"wist": {
+				"name": "wist",
+				"pdisplay": "连元硬件",
+				"display": "连元硬件",
+				"href": "http://cjlns.com",
+				"tips": "连元硬件",
+				"sort": 0,
+				"target": "_self",
+				"tertiaries": {
+					"wigozdsmj": {
+						"name": "wigozdsmj",
+						"tips": "WiGo终端售卖机",
+						"display": "WiGo终端售卖机",
+						"sort": 0,
+						"target": "_self"
+					},"wuxizj": {
+						"name": "wuxizj",
+						"tips": "无箱闸机",
+						"display": "无箱闸机",
+						"sort": 0,
+						"target": "_self"
+					},"hwsby": {
+						"name": "hwsby",
+						"tips": "货物识别仪",
+						"display": "货物识别仪",
+						"sort": 0,
+						"target": "_self"
+					},"xwsby": {
+						"name": "xwsby",
+						"tips": "行为视别仪",
+						"display": "行为视别仪",
+						"sort": 0,
+						"target": "_self"
+					}
+				}
+			},"wisoft": {
+				"name": "wisoft",
+				"pdisplay": "连元软件",
+				"display": "连元软件",
+				"href": "http://cjlns.com",
+				"tips": "连元软件",
+				"sort": 0,
+				"target": "_self",
+				"tertiaries": {
+					"wigo": {
+						"name": "wigo",
+						"tips": "平台、app，购物乐趣尽在此",
+						"display": "WiGo™",
+						"sort": 0,
+						"target": "_self"
+					},"wishop": {
+						"name": "wishop",
+						"tips": "商店运营监控系统",
+						"display": "WiShop™",
+						"sort": 0,
+						"target": "_self"
+					},"wipartner": {
+						"name": "wipartner",
+						"tips": "加盟商管理系统",
+						"display": "WiPartner",
+						"sort": 0,
+						"target": "_self"
+					},"wipay": {
+						"name": "wipay",
+						"tips": "wipay支付工具，交易中心",
+						"display": "WiPay™",
+						"sort": 0,
+						"target": "_self"
+					},"wioffice": {
+						"name": "wioffice",
+						"tips": "企业办公室，提供员工桌面、员工邮箱、工作流、员工派单、员工内部通讯、企业论坛、企业考勤等服务",
+						"display": "WiOffice™",
+						"sort": 0,
+						"target": "_self"
+					}
+				}
+			},"wiyy": {
+				"name": "wiyy",
+				"pdisplay": "连元运营",
+				"display": "连元运营",
+				"href": "http://cjlns.com",
+				"tips": "连元运营",
+				"sort": 0,
+				"target": "_self",
+				"tertiaries": {
+					"wigoshop": {
+						"name": "wigoshop",
+						"tips": "WiGo 商店",
+						"display": "WiGo™ 商店",
+						"sort": 0,
+						"target": "_self"
+					},"wigoatm": {
+						"name": "wigoatm",
+						"tips": "WiGo 自助机，智能室内外售卖机",
+						"display": "WiGo™ 自助机",
+						"sort": 0,
+						"target": "_self"
+					}
+				}
+			},"wiyc": {
+				"name": "wiyc",
+				"pdisplay": "连元英才",
+				"display": "连元英才",
+				"href": "http://cjlns.com",
+				"tips": "连元英才,本公司员工招聘信息",
+				"sort": 0,
+				"target": "_self",
+				"tertiaries": {
+					"wijob": {
+						"name": "wijob",
+						"tips": "WiJob 培训和就业产品介绍",
+						"display": "WiJob™",
+						"sort": 0,
+						"target": "_self"
+					},"wipublic": {
+						"name": "wipublic",
+						"tips": "公开课",
+						"display": "公开课",
+						"sort": 0,
+						"target": "_self"
+					},"wixt": {
+						"name": "wixt",
+						"tips": "实战学堂",
+						"display": "实战学堂",
+						"sort": 0,
+						"target": "_self"
+					},"wijy": {
+						"name": "wijy",
+						"tips": "人才共享输出",
+						"display": "人才共享输出",
+						"sort": 0,
+						"target": "_self"
+					},"wigz": {
+						"name": "wigz",
+						"tips": "我们的雇主",
+						"display": "我们的雇主",
+						"sort": 0,
+						"target": "_self"
+					}
+				}
+			}
+		}
+	},{
+		"name": "joinus",
+		"display": "加入我们",
+		"site": "site.wisdoms",
+		"sort": 2,
+		"target": "_self",
+		"secondaries": {
+			"cllzw": {
+				"name": "cllzw",
+				"pdisplay": "策略类职位",
+				"display": "策略类职位",
+				"href": "http://cjlns.com",
+				"tips": "策略类职位",
+				"sort": 0,
+				"target": "_self",
+				"tertiaries": {
+					"yyjl": {
+						"name": "yyjl",
+						"tips": "运营经理",
+						"display": "运营经理",
+						"sort": 0,
+						"target": "_self"
+					},"chjl": {
+						"name": "chjl",
+						"tips": "策划或产品经理",
+						"display": "策划或产品经理",
+						"sort": 0,
+						"target": "_self"
+					},"ms": {
+						"name": "ms",
+						"tips": "谋士",
+						"display": "谋士",
+						"sort": 0,
+						"target": "_self"
+					}
+				}
+			},"zygllzw": {
+				"name": "zygllzw",
+				"pdisplay": "专业管理类职位",
+				"display": "专业管理类职位",
+				"href": "http://cjlns.com",
+				"tips": "专业管理类职位",
+				"sort": 0,
+				"target": "_self",
+				"tertiaries": {
+					"wateam": {
+						"name": "wateam",
+						"tips": "web/app团队主管",
+						"display": "web/app团队主管",
+						"sort": 0,
+						"target": "_self"
+					},"jsjsjteam": {
+						"name": "jsjsjteam",
+						"tips": "计算机视觉团队主管",
+						"display": "计算机视觉团队主管",
+						"sort": 0,
+						"target": "_self"
+					},"plcteam": {
+						"name": "plcteam",
+						"tips": "自动控制团队主管",
+						"display": "自动控制团队主管",
+						"sort": 0,
+						"target": "_self"
+					},"mdjl": {
+						"name": "mdjl",
+						"tips": "门店经理",
+						"display": "门店经理",
+						"sort": 0,
+						"target": "_self"
+					},"other": {
+						"name": "other",
+						"tips": "其它管理岗位",
+						"display": "其它管理岗位",
+						"sort": 0,
+						"target": "_self"
+					}
+				}
+			},"zysslzw": {
+				"name": "zysslzw",
+				"pdisplay": "专业实施类职位",
+				"display": "专业实施类职位",
+				"href": "http://cjlns.com",
+				"tips": "专业实施类职位",
+				"sort": 0,
+				"target": "_self",
+				"tertiaries": {
+					"jgs": {
+						"name": "jgs",
+						"tips": "架构师",
+						"display": "架构师",
+						"sort": 0,
+						"target": "_self"
+					},"wymg": {
+						"name": "wymg",
+						"tips": "网页美工",
+						"display": "网页美工",
+						"sort": 1,
+						"target": "_self"
+					},"wakfgcs": {
+						"name": "wakfgcs",
+						"tips": "web/app开发工程师",
+						"display": "web/app开发工程师",
+						"sort": 2,
+						"target": "_self"
+					},"jsjsfgcs": {
+						"name": "jsjsfgcs",
+						"tips": "计算机视觉算法工程师",
+						"display": "计算机视觉算法工程师",
+						"sort": 3,
+						"target": "_self"
+					},"plcgcs": {
+						"name": "plcgcs",
+						"tips": "自动控制开发工程师",
+						"display": "自动控制开发工程师",
+						"sort": 3,
+						"target": "_self"
+					},"wxgdzf": {
+						"name": "wxgdzf",
+						"tips": "微信／高德／支付宝开发工程师",
+						"display": "微信／高德／支付宝开发工程师",
+						"sort": 3,
+						"target": "_self"
+					},"csgcs": {
+						"name": "csgcs",
+						"tips": "测试工程师",
+						"display": "测试工程师",
+						"sort": 4,
+						"target": "_self"
+					}
+				}
+			},
+			"services": {
+				"name": "services",
+				"pdisplay": "服务类职位",
+				"display": "服务类职位",
+				"href": "http://cjlns.com",
+				"tips": "服务类职位",
+				"sort": 0,
+				"target": "_self",
+				"tertiaries": {
+					"qtwy": {
+						"name": "qtwy",
+						"tips": "前台文员",
+						"display": "前台文员",
+						"sort": 0,
+						"target": "_self"
+					},"szzy": {
+						"name": "szzy",
+						"tips": "行政专员",
+						"display": "行政专员",
+						"sort": 0,
+						"target": "_self"
+					},"rszy": {
+						"name": "rszy",
+						"tips": "人事专员",
+						"display": "人事专员",
+						"sort": 0,
+						"target": "_self"
+					},"cwkj": {
+						"name": "cwkj",
+						"tips": "会计",
+						"display": "会计",
+						"sort": 0,
+						"target": "_self"
+					},"cwcn": {
+						"name": "cwcn",
+						"tips": "出纳",
+						"display": "出纳",
+						"sort": 0,
+						"target": "_self"
+					}
+				}
+			},"ywlzw": {
+				"name": "ywlzw",
+				"pdisplay": "业务类职位",
+				"display": "业务类职位",
+				"href": "http://cjlns.com",
+				"tips": "业务类职位",
+				"sort": 0,
+				"target": "_self",
+				"tertiaries": {
+					"lyjsjs": {
+						"name": "lyjsjs",
+						"tips": "领域技术讲师",
+						"display": "领域技术讲师",
+						"sort": 0,
+						"target": "_self"
+					},"jszl": {
+						"name": "jszl",
+						"tips": "讲师助理",
+						"display": "讲师助理",
+						"sort": 0,
+						"target": "_self"
+					},"wltgzy": {
+						"name": "wltgzy",
+						"tips": "网络推广专员",
+						"display": "网络推广专员",
+						"sort": 0,
+						"target": "_self"
+					},"sczby": {
+						"name": "sczby",
+						"tips": "商场值班员",
+						"display": "商场值班员",
+						"sort": 0,
+						"target": "_self"
+					},"baoa": {
+						"name": "baoa",
+						"tips": "保安",
+						"display": "保安",
+						"sort": 0,
+						"target": "_self"
+					}
+				}
+			}
+		}
+	}
+]

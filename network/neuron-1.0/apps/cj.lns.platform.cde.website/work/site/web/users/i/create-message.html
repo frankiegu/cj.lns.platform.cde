@@ -1,0 +1,45 @@
+<script type="text/javascript">
+<!--
+$(document).ready(function(){
+	var newgroup=$('.inbox-hidden').html();
+	if(newgroup.length>0){
+		$('.imessager .imessager-ul .new-message:not([thread])').remove();
+		$('.imessager .imessager-ul').prepend(newgroup);
+	}
+})
+//-->
+</script>
+<div class="inbox-wrap">
+	<div class="inbox-hidden" style="display: none;"></div>
+	<div class="inbox-header">
+		<ul class="pillbox-list">
+			
+		</ul>
+		<div class="twitter-typeahead">
+			<input placeholder="Type a name, Press the Enter key to select the first one.">
+			<div class="names clearfix">
+				<div class="users-hidden" style="display: none;">
+					<li class="pill"><span class="pill-name">car</span><span
+						class="pill-nick">李小狗</span></li>
+				</div>
+				<ul class="u-names">
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="compose-box">
+		<textarea class="typed" rows="" cols=""
+			placeholder="Write your message..."></textarea>
+		<div class="compose-action-bar">
+			<div class="send-bar">
+				<div id="enter-to-send">
+					<input id="enter-to-send-checkbox" class="send-option" checked=""
+						type="checkbox"> <label class="send-option-label"
+						for="enter-to-send-checkbox">press enter to send</label>
+				</div>
+				<button type="submit" class="message-submit submitting">Send</button>
+			</div>
+		</div>
+	</div>
+</div>

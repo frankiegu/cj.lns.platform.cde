@@ -1,0 +1,175 @@
+<script src="/js/preferences.js" type="text/javascript">
+</script>
+<style>
+<!--
+.prefer-panel {
+	min-height: 100px;
+	min-width: 300px;
+}
+.prefer-panel .prefer-face{
+	position: relative;
+	padding-top: 160px;
+}
+.prefer-panel .prefer-face .face-img{
+	position: absolute;
+	top:0;
+	left:50%;
+	width:140px;
+	height:140px;
+	margin-left: -70px;
+}
+.prefer-panel .prefer-face .face-img label{
+	cursor: pointer;
+}
+.prefer-panel .prefer-face .face-img .img{
+	width:100%;
+	height: 100%;
+	-moz-border-radius: 50%;      /* Gecko browsers */
+    -webkit-border-radius: 50%;   /* Webkit browsers */
+    border-radius:50%;    
+}
+.prefer-panel .prefer-face .face-img .relationship{
+	width:25px;
+	height: 25px;
+	position: absolute;
+	bottom:0;
+	right:-5px;
+}
+.prefer-panel .prefer-face .face-img .send-message{
+	position: absolute;
+	bottom:0;
+	right:-75px;
+	cursor: pointer;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	-moz-border-radius: 4px;      /* Gecko browsers */
+    -webkit-border-radius: 4px;   /* Webkit browsers */
+    border-radius:4px; 
+}
+.prefer-panel .prefer-face .face-img .send-message:hover{
+	background-color: #999;
+	color: white;
+}
+.prefer-panel .prefer-face .face-img .sex{
+	position: absolute;
+	bottom:0;
+	left:-5px;
+	height:20px;
+	line-height:22px;
+	padding:0 3px;
+	-moz-border-radius: 50%;      /* Gecko browsers */
+    -webkit-border-radius: 50%;   /* Webkit browsers */
+    border-radius:50%;  
+    display: inline-block;
+    border:1px solid gray;
+}
+.prefer-panel .prefer-face .face-names{
+	text-align: center;
+}
+.prefer-panel .prefer-face .face-names span{
+	padding: 0 3px;
+}
+.prefer-panel .prefer-face .face-names span[username]{
+	 color: #646464;
+    font-weight: bold;
+}
+.prefer-panel .prefer-face .face-names .face-sign{
+	text-align: center;
+	color: #919191;
+}
+.prefer-panel .prefer-face .face-names .face-sign textarea{
+	border: none;
+	width:300px;
+	resize:none;
+	font-size: 12px;
+	padding: 10px 10px 0 10px;
+}
+.prefer-panel .prefer-total{
+	text-align: center;
+	margin-top: 40px;
+}
+.prefer-panel .prefer-total .his-activities{
+	    margin: 0 auto;
+    text-align: center;
+    width: 440px;
+}
+.prefer-panel .prefer-total .his-activities li{
+	display: inline-block;
+	padding: 5px 16px;
+}
+.prefer-panel .prefer-total .his-activities li span[header]{
+	color: #222;
+    direction: ltr;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: bold;
+}
+.prefer-panel .prefer-brief{
+	width:380px;
+	margin: 0 auto;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-indent: 2em;
+	line-height: 30px;
+	border-top:1px dotted #ececec;
+	 font-family: Helvetica,"Hiragino Sans GB","Microsoft Yahei","微软雅黑",Arial,sans-serif;
+    overflow-wrap: break-word;
+}
+.prefer-panel .prefer-brief textarea{
+	border: none;
+	resize:none;
+	padding: 0 10px 10px 10px;
+	width:350px;
+	font-size: 12px;
+	height: 80px;
+}
+.prefer-panel .prefer-pwd{
+	width:380px;
+	margin: 0 auto;
+}
+.prefer-panel .prefer-spliter{
+	color: #666;
+	border-bottom: 1px solid #999;
+	margin-bottom: 10px;
+}
+.prefer-panel .prefer-pwd input{
+	height: 30px;
+	width: 100%;
+	padding: 5px 10px;
+	display: block;
+	border: none;
+	border-bottom: 1px dotted #919191;
+	margin: 10px 0 ;
+}
+.prefer-panel .prefer-face .face-names input[nickname]{
+	border: none;
+	width: 80px;
+	text-align: right;
+}
+-->
+</style>
+<div class="prefer-panel">
+			<div class="prefer-face">
+				<div class="face-img">
+					<label for="head-pic" title="更换头像"><img class="img" src="//reactchina.sxlcdn.com/user_avatar/react-china.org/wuct/90/5767_1.png"></label>
+					<span class="sex">男</span>
+					<input id="head-pic" name="head-pic" style="display: none;" type="file">
+				</div>
+				<div class="face-names">
+					<a username="" href="/users/cj/">Carocean</a><input placeholder="输入真实名字" nickname="" value='xx'>
+					<div class="face-sign">
+						<textarea placeholder="输入个人签名，回车上屏">生活着感wu着</textarea>
+					</div>
+				</div>
+			</div>
+			<div class="prefer-brief">
+				<textarea placeholder="输入个人简介，回车上屏">cj短言集 言自然律理 讲社会兴替 谈苦雨风尘 开合万象百态 凡平生于一集</textarea>
+			</div>
+			<div class="prefer-pwd">
+				<div class="prefer-spliter"><span>修改密码</span></div>
+				<input class="type-pwd" type="password" placeholder="新密码">
+				<input class="retype-pwd" type="password" placeholder="再输一遍，回车提交">
+			</div>
+		</div>

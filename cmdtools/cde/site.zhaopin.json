@@ -1,0 +1,188 @@
+[
+	{
+		"name": "hjyy",
+		"display": "连元",
+		"site": "site.zhaopin",
+		"secondaries": {
+			"celuelei": {
+				"name": "celuelei",
+				"pdisplay": "策略类职位",
+				"display": "策略类职位",
+				"href": "http://cjlns.com",
+				"tips": "策略类职位",
+				"tertiaries": {
+					"yyjli": {
+						"name": "yyjli",
+						"tips": "运营经理",
+						"display": "运营经理",
+						"sort": 0,
+						"target": "_self"
+					},
+					"chjl": {
+						"name": "chjl",
+						"tips": "策划经理",
+						"display": "策划经理",
+						"sort": 1,
+						"target": "_self"
+					},
+					"cpjl": {
+						"name": "cpjl",
+						"tips": "产品经理",
+						"display": "产品经理",
+						"sort": 1,
+						"target": "_self"
+					}
+				},
+				"sort": 0,
+				"target": "_self"
+			},"zhuanyelie": {
+				"name": "zhuanyelie",
+				"pdisplay": "专业类职位",
+				"display": "专业类职位",
+				"href": "http://cjlns.com",
+				"tips": "专业类职位",
+				"tertiaries": {
+					"jingli": {
+						"name": "jingli",
+						"tips": "web团队主管",
+						"display": "web团队主管",
+						"sort": 0,
+						"target": "_self"
+					},
+					"zhuguan": {
+						"name": "zhuguan",
+						"tips": "生物识别团队主管",
+						"display": "生物识别团队主管",
+						"sort": 1,
+						"target": "_self"
+					},
+					"zhidongkuzhizg": {
+						"name": "zhidongkuzhizg",
+						"tips": "自动控制团队主管",
+						"display": "自动控制团队主管",
+						"sort": 1,
+						"target": "_self"
+					}
+				},
+				"sort": 0,
+				"target": "_self"
+			},"gongjv": {
+				"name": "gongjv",
+				"pdisplay": "工具类职位",
+				"display": "工具类职位",
+				"href": "http://cjlns.com",
+				"tips": "工具类职位",
+				"tertiaries": {
+					"wangymg": {
+						"name": "wangymg",
+						"tips": "网页美工",
+						"display": "网页美工",
+						"sort": 0,
+						"target": "_self"
+					},
+					"webkfgcs": {
+						"name": "webkfgcs",
+						"tips": "web开发工程师",
+						"display": "web开发工程师",
+						"sort": 1,
+						"target": "_self"
+					},
+					"shengwushibiegcs": {
+						"name": "shengwushibiegcs",
+						"tips": "生物识别开发工程师",
+						"display": "生物识别开发工程师",
+						"sort": 2,
+						"target": "_self"
+					},
+					"zidongkongzhigcs": {
+						"name": "zidongkongzhigcs",
+						"tips": "自动控制开发工程师",
+						"display": "自动控制开发工程师",
+						"sort": 2,
+						"target": "_self"
+					},
+					"jggcs": {
+						"name": "jggcs",
+						"tips": "架构师",
+						"display": "架构师",
+						"sort": 1,
+						"target": "_self"
+					},
+					"tester": {
+						"name": "tester",
+						"tips": "测试工程师",
+						"display": "测试工程师",
+						"sort": 1,
+						"target": "_self"
+					}
+				},
+				"sort": 0,
+				"target": "_self"
+			},"fuwulie": {
+				"name": "fuwulie",
+				"pdisplay": "服务类职位",
+				"display": "服务类职位",
+				"href": "http://cjlns.com",
+				"tips": "服务类职位",
+				"tertiaries": {
+					"qtzy": {
+						"name": "qtzy",
+						"tips": "前台文员",
+						"display": "前台文员",
+						"sort": 0,
+						"target": "_self"
+					},
+					"xzzy": {
+						"name": "xzzy",
+						"tips": "行政专员",
+						"display": "行政专员",
+						"sort": 1,
+						"target": "_self"
+					},
+					"yszy": {
+						"name": "yszy",
+						"tips": "人事专员",
+						"display": "人事专员",
+						"sort": 1,
+						"target": "_self"
+					}
+				},
+				"sort": 0,
+				"target": "_self"
+			},"yewulie": {
+				"name": "yewulie",
+				"pdisplay": "业务类职位",
+				"display": "业务类职位",
+				"href": "http://cjlns.com",
+				"tips": "业务类职位",
+				"tertiaries": {
+					"pxzy": {
+						"name": "pxzy",
+						"tips": "培训专员",
+						"display": "培训专员",
+						"sort": 0,
+						"target": "_self"
+					},
+					"tgzy": {
+						"name": "tgzy",
+						"tips": "推广专员",
+						"display": "推广专员",
+						"sort": 1,
+						"target": "_self"
+					},
+					"mdjl": {
+						"name": "mdjl",
+						"tips": "门店经理",
+						"display": "门店经理",
+						"sort": 1,
+						"target": "_self"
+					}
+				},
+				"sort": 0,
+				"target": "_self"
+			}
+		},
+		"sort": 1,
+		"target": "_self"
+	}
+]

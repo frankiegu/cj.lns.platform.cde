@@ -1,0 +1,65 @@
+apply plugin:'application'
+mainClassName = "cj.studio.cde.start.Main"
+sourceSets { 
+	 main { 
+	 	java{
+	 		srcDir "$projectDir/src"
+	 	}
+	 	resources{
+		 	srcDir "$projectDir/src"
+		 }
+	 } 
+ 	}
+ 		sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+ 	tasks.withType(JavaCompile) {  
+        options.encoding = "UTF-8"  
+    } 
+ repositories { 
+ 	mavenCentral();
+	 flatDir(dirs: "$projectDir/global/lib") 
+ } 
+ jar {
+    manifest {
+        attributes 'Manifest-Version': version,
+                   'Class-Path': '.',
+                   'Main-Class':'cj.studio.cde.start.Main',
+                   'DynamicImport-Package':'*'
+    }
+}
+
+dependencies {
+	compile(
+            'commons-cli:commons-cli:1.2'
+    )
+	compile fileTree('../global/runtime')
+	compile fileTree('../global/cjtools')
+	compile fileTree('src/cj/references')
+}
+task runnableJar(dependsOn:':cj.studio.cde:release',type: Jar) {
+	manifest {
+        attributes 'Implementation-Title': 'Gradle Jar File Example',  
+        	'Implementation-Version': version,
+        	'Main-Class': 'cj.studio.cde.start.Main'
+    }
+    baseName = 'cde'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+}
+
+    task releaseCdeStart(dependsOn: runnableJar,type: Copy) {
+     dependsOn "build"
+     from 'build/libs/'
+      into '../cmdtools/cde'
+     include '**/*.jar'
+ 	}
+ 	 task release(type: Copy) {
+     dependsOn ":cj.studio.cde:release",":cj.studio.cde.tools:release","releaseCdeStart"
+ 		doLast {
+			println 'cde 引擎 环境发布完毕!'
+		}
+ 	}
+ 	
+tasks.getByPath(':cj.studio.cde.tools:release').mustRunAfter tasks.getByPath(':cj.studio.cde:release')
+tasks.getByPath(':cj.studio.cde.start:release').mustRunAfter tasks.getByPath(':cj.studio.cde.tools:release')
+ 	

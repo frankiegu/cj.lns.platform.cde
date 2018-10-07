@@ -1,0 +1,133 @@
+<style>
+<!--
+.follows {
+	
+}
+
+.follows>.follows-count {
+	margin-bottom: 10px;
+	border-bottom: 1px solid red;
+}
+
+.follows>.follows-count>span {
+	
+}
+
+.follows>.follows-count>span[label] {
+	color: gray;
+}
+
+.follows>.follows-count>span[count] {
+	padding-right: 15px;
+}
+.follows>.follows-count>a[more] {
+	padding-left: 10px;
+}
+.follows>.follows-msg {
+	
+}
+
+.follows>.follows-msg>li {
+	padding: 5px 0;
+	padding-left: 5px;
+	cursor: pointer;
+}
+
+.follows>.follows-msg>li:hover {
+	background: #999;
+	color: white;
+}
+
+.follows>.follows-msg>li img {
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	-moz-border-radius: 50%; /* Gecko browsers */
+	-webkit-border-radius: 50%; /* Webkit browsers */
+	border-radius: 50%; /* W3C syntax */
+}
+
+.follows>.follows-msg>li a {
+	display: block;
+}
+
+.follows>.follows-msg>li a:hover {
+	color: white;
+}
+
+.follows>.follows-msg>li span {
+	vertical-align: middle;
+	padding: 0 5px;
+}
+.follows>.follows-msg>li span[vtime]{
+	font-size: 12px;
+	color: gray;
+}
+.follows>.follows-msg>li span[label]{
+	font-size: 12px;
+	color: gray;
+}
+
+.follows .op{
+	background: #ececec;
+	text-align: center;
+	margin-top: 10px;
+	border:1px solid #fff;
+	cursor: pointer;
+	line-height: 40px;
+}
+.follows .op:hover{
+	background: #999;
+	color: yellow;
+}
+-->
+</style>
+<script type="text/javascript">
+<!--
+$(document).ready(function(){
+	
+	$('.follows .op').on('click',function(e){
+		var docid=$('.topic-timeline').attr('docid');
+		var the=$(this);
+		if($(this).attr('followed')=='followed'){//取消关注
+			$.get('/views/guandu/unfollow-hits.html?docid='+docid,function(data){
+				var span=$('.timeline-container .topic-timeline .timeline-footer-controls button[aria-action=\"follow-hits\"] span');
+				var count=span.html();
+				span.html(parseInt(count)-1);
+				the.html('关注');
+				the.removeAttr('followed');
+			}).error(function(e){
+				var err=e.responseText;
+				err=err.substring(0,err.indexOf('<br/>'));
+				alert(e.status+' '+err);
+			});
+		}else{
+			$.get('/views/guandu/follow-hits.html?docid='+docid,function(data){
+				var span=$('.timeline-container .topic-timeline .timeline-footer-controls button[aria-action=\"follow-hits\"] span');
+				var count=span.html();
+				span.html(parseInt(count)+1);
+				the.html('已关注');
+				the.attr('followed','followed');
+			}).error(function(e){
+				var err=e.responseText;
+				err=err.substring(0,err.indexOf('<br/>'));
+				alert(e.status+' '+err);
+			});
+		}
+		
+	});
+});
+//-->
+</script>
+<div class="follows">
+	<div class="follows-count">
+		<span label>共有：</span><span count>10人</span><span label>关注了</span>
+	</div>
+	<ul class="follows-msg">
+		<li><a href="#" title=""><img
+				alt="" src="/img/1.png"><span name>Carocean</span><span times>10次</span><span label>次</span><span vtime>时间</span></a></li>
+		<li><a href="#" title=""><img
+				alt="" src="/img/1.png"><span name>Carocean</span><span times>10次</span></a></li>
+	</ul>
+	<div class="op">关注</div>
+</div>

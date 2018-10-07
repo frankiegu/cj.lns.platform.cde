@@ -1,0 +1,90 @@
+路径和平行分类：
+	路径是唯一的，平台分类是维度，可以选择多个维度
+招聘
+	慧境云业
+		策略类职位
+			运营经理
+			策划经理
+			产品经理
+		专业类职位
+			web团队主管
+				web框架：jss,struts2,spring mvc,其它
+				移动框架:Intel App Framework,jmobile,其它
+				lns:neuron,ecm,net,plus
+				web容器:tomcat/weblogic/websphere/neuron
+				orm：hibernate，ibatics,ecm
+				db：mongodb,mysql,mdisk,oracle，其它
+				语言:java,js
+				html:html5,css,其它
+				app开发工具：cordova 其它
+				通讯：netty,cjnet,websocket,其它
+				经验：实习生以上  1年以上 2以上 3以上 4以上 5以上 6以上 8以上 不限
+				学历： 大专 本科 硕士 不限
+				专业：计算机 信息管理 不限
+				
+				设计：visio,graffle,erwin 其它
+				规模：2-4人团队，4-6人团队，6-8人团队，8-10，10人以上
+			生物识别团队主管
+				算法库：opencv,其它
+				语言:java,c,c++
+				设计：visio,graffle,erwin 其它
+				规模：2-4人团队，4-6人团队，6-8人团队，8-10，10人以上
+			自动控制团队主管
+				维度生物识别：ic卡，闸机／门禁,重力／压力传感器
+				语言:java,c,c++
+				设计：visio,graffle,erwin 其它
+				规模：2-4人团队，4-6人团队，6-8人团队，8-10，10人以上
+		工具类职位
+			网页美工
+				维度j2ee：jss,struts2,spring mvc
+				维度lns:neuron,ecm,net,plus
+				维度orm：hibernate,ecm
+				维度db：mongodb,mysql,mdisk
+				语言:java,js
+				html:html5,css
+				经验：应界生 1-2年 2-4年 4-6年 6-20年 不限
+				学历：大专 本科 硕士 不限
+				专业：计算机 信息管理 不限
+			web开发工程师
+				维度j2ee：jss,struts2,spring mvc
+				维度lns:neuron,ecm,net,plus
+				维度orm：hibernate,ecm
+				维度db：mongodb,mysql,mdisk
+				语言:java,js
+				html:html5,css,
+				经验：1-2年 2-4年 4-6年 6-20年 不限
+				学历：应界生 大专 本科 硕士 不限
+				专业：计算机 信息管理 不限
+			生物识别开发工程师
+				维度j2ee：jss,struts2,spring mvc
+				维度lns:neuron,ecm,net,plus
+				维度orm：hibernate,ecm
+				维度db：mongodb,mysql,mdisk
+				语言:java,js
+				html:html5,css,
+				经验：1-2年 2-4年 4-6年 6-20年 不限
+				学历：应界生 大专 本科 硕士 不限
+				专业：计算机 信息管理 不限
+			自动控制开发工程师
+				维度生物识别：ic卡，闸机／门禁,重力／压力传感器
+				语言:java,c,c++
+				经验：1-2年 2-4年 4-6年 6-20年 不限
+				学历：应界生 大专 本科 硕士 不限
+				专业：计算机 信息管理 不限
+			测试工程师
+				经验：1-2年 2-4年 4-6年 6-20年 不限
+				学历：应界生 大专 本科 硕士 不限
+				专业：计算机 信息管理 不限
+		服务类职位
+			前台文员
+			行政专员
+			人事专员
+		业务类职位
+			培训专员
+				经验：应界生／实习 1-2年 2-4年 4-6年 6-20年 不限
+				学历： 大专 本科 硕士 不限
+				专业：计算机 信息管理 不限
+			推广专员
+			门店经理
+			
+				

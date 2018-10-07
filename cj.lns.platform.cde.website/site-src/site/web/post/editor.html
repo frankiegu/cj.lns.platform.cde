@@ -1,0 +1,574 @@
+<link href="../css/editor.css" rel="stylesheet">
+<script type="text/javascript" src="/js/editor.js"></script>
+<div id="ember564" class="ember-view">
+	<div id="workbin">
+		<div id="cover-region">
+			<div id="ember89238"></div>
+			<div id="ember1359" class="ember-view cover-image__crop">
+				<ul class="cover-image__toolbar">
+					<li title="覆盖" action='cover'>
+						<button class="action active" data-ember-action="1371">
+							<span class="svg-icon-wrap"><li-icon aria-hidden="true"
+									type="content-full-bleed-icon"> <svg
+									style="height: 100%; width: 100%;">
+									<svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0"
+										preserveAspectRatio="xMinYMin meet">
+										<g class="large-icon" style="fill: currentColor">
+        <path
+											d="M17,5H7V3H17V5Zm2,4H5v6H19V9m1-2a1,1,0,0,1,1,1v8a1,1,0,0,1-1,1H4a1,1,0,0,1-1-1V8A1,1,0,0,1,4,7H20ZM17,19H7v2H17V19Z"></path>
+      </g></svg></svg></li-icon></span>
+						</button>
+					</li>
+					<li title="自适应" action='contain'>
+						<button class="action" data-ember-action="1372"
+							data-is-animating-click="true">
+							<span class="svg-icon-wrap"><li-icon aria-hidden="true"
+									type="content-full-width-icon">
+								<svg style="height: 100%; width: 100%;">
+									<svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0"
+										preserveAspectRatio="xMinYMin meet">
+										<g class="large-icon" style="fill: currentColor">
+        <path
+											d="M20,5H4V3H20V5ZM18,9H6v6H18V9m1-2a1,1,0,0,1,1,1v8a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V8A1,1,0,0,1,5,7H19Zm1,12H4v2H20V19Z"></path>
+      </g></svg></svg></li-icon></span>
+						</button>
+					</li>
+					<li title="Remove Cover Image" action='remove'>
+						<button class="action" data-ember-action="1363">
+							<span class="svg-icon-wrap"> <li-icon aria-hidden="false"
+									type="trash-icon"> <svg
+									style="height: 100%; width: 100%;">
+									<svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0"
+										preserveAspectRatio="xMinYMin meet" class="icon">
+										<g class="large-icon" style="fill: currentColor">
+        <path
+											d="M19.26,2.9A28,28,0,0,0,15,2.13V1.5A0.5,0.5,0,0,0,14.5,1h-5a0.5,0.5,0,0,0-.5.5V2.13a28,28,0,0,0-4.26.78,1,1,0,0,0-.74,1V9H5V21a1,1,0,0,0,1,1H18a1,1,0,0,0,1-1V9h1V3.88A1,1,0,0,0,19.26,2.9ZM17,20H7V9H17V20ZM18,7H6V4.59a26.35,26.35,0,0,1,6-.71,26.35,26.35,0,0,1,6,.71V7ZM11,18H10V11h1v7Zm3,0H13V11h1v7Z"></path>
+      </g></svg></svg></li-icon></span>
+						</button>
+					</li>
+				</ul>
+
+				<div class="cover-image__image"></div>
+				<!---->
+			</div>
+		</div>
+		<div id="sites"></div>
+		<pre class="ql-syntax" spellcheck="false"></pre>
+		<div class="slate-universal-embed slate-embed-placeholder"
+			data-slate-ignore="true" style="clear: both;" tabindex="0"
+			contenteditable="false">
+			<button class="slate-embed-close-button" role="button">
+				<li-icon type="cancel-icon" color="true" size="medium" role="img"
+					aria-label="Cancel embed"> <svg
+					style="height: 24px; width: 24px;">
+					<svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0"
+						preserveAspectRatio="xMinYMin meet" class="icon">
+						<g class="large-icon" style="fill: currentColor">
+        <path
+							d="M20,5.32L13.32,12,20,18.68,18.66,20,12,13.33,5.34,20,4,18.68,10.68,12,4,5.32,5.32,4,12,10.69,18.68,4Z" />
+      </g></svg></svg></li-icon>
+			</button>
+			<div class="slate-embed-placeholder-body">
+				<div class="slate-embed-loader">
+					<li-icon aria-hidden="true" type="loader" class="blue"> <svg
+						style="height: 60px; width: 60px;">
+						<svg width="60px" height="60px" viewBox="0 0 60 60">
+							<g class="large-icon" style="fill: currentColor;">
+        <path opacity="1"
+								d="M30.1,16.1L30.1,16.1c-0.6,0-1-0.5-1-1V1c0-0.6,0.5-1,1-1l0,0c0.6,0,1,0.5,1,1v14.1C31.1,15.7,30.6,16.1,30.1,16.1z" />
+        <path opacity="0.85"
+								d="M23.1,18.1L23.1,18.1c-0.5,0.3-1.1,0.1-1.4-0.4L14.5,5.6c-0.3-0.5-0.2-1.1,0.4-1.4l0,0C15.4,3.9,16,4,16.3,4.6l7.2,12.1C23.8,17.2,23.6,17.8,23.1,18.1z" />
+        <path opacity="0.77"
+								d="M17.9,23.1L17.9,23.1c-0.3,0.5-0.9,0.7-1.4,0.4l-12.2-7c-0.5-0.3-0.7-0.9-0.4-1.4l0,0c0.3-0.5,0.9-0.7,1.4-0.4l12.2,7C18,22,18.2,22.7,17.9,23.1z" />
+        <path opacity="0.69"
+								d="M16.1,30.1L16.1,30.1c0,0.6-0.5,1-1,1L1,31.2c-0.6,0-1-0.5-1-1l0,0c0-0.6,0.5-1,1-1l14.1-0.1C15.7,29.1,16.1,29.5,16.1,30.1z" />
+        <path opacity="0.61"
+								d="M18,36.9L18,36.9c0.3,0.5,0.2,1.1-0.4,1.4L5.5,45.6c-0.5,0.3-1.1,0.2-1.4-0.4l0,0c-0.3-0.5-0.2-1.1,0.4-1.4l12.1-7.3C17.1,36.2,17.7,36.4,18,36.9z" />
+        <path opacity="0.53"
+								d="M23.3,42.1L23.3,42.1c0.5,0.3,0.6,0.9,0.4,1.4l-7.3,12.1c-0.3,0.5-0.9,0.6-1.4,0.4l0,0c-0.5-0.3-0.6-0.9-0.4-1.4l7.3-12.1C22.1,41.9,22.8,41.8,23.3,42.1z" />
+        <path opacity="0.45"
+								d="M30.1,43.9L30.1,43.9c0.6,0,1,0.5,1,1V59c0,0.6-0.5,1-1,1l0,0c-0.6,0-1-0.5-1-1V44.9C29,44.4,29.5,43.9,30.1,43.9z" />
+        <path opacity="0.37"
+								d="M37,41.9L37,41.9c0.5-0.3,1.1-0.2,1.4,0.4l7.2,12.1c0.3,0.5,0.2,1.1-0.4,1.4l0,0c-0.5,0.3-1.1,0.2-1.4-0.4l-7.2-12.1C36.4,42.8,36.6,42.2,37,41.9z" />
+        <path opacity="0.29"
+								d="M42.2,36.8L42.2,36.8c0.3-0.5,0.9-0.7,1.4-0.4l12.2,7c0.5,0.3,0.7,0.9,0.4,1.4l0,0c-0.3,0.5-0.9,0.7-1.4,0.4l-12.2-7C42.1,38,41.9,37.4,42.2,36.8z" />
+        <path opacity="0.21 "
+								d="M44,29.9L44,29.9c0-0.6,0.5-1,1-1h14.1c0.6,0,1,0.5,1,1l0,0c0,0.6-0.5,1-1,1L45,31C44.4,31,44,30.5,44,29.9z" />
+        <path opacity="0.13"
+								d="M42.1,23.1L42.1,23.1c-0.3-0.5-0.2-1.1,0.4-1.4l12.1-7.3c0.5-0.3,1.1-0.2,1.4,0.4l0,0c0.3,0.4,0.1,1.1-0.4,1.3l-12.1,7.3C43.1,23.7,42.4,23.6,42.1,23.1z" />
+        <path opacity="0.05"
+								d="M36.9,17.9L36.9,17.9c-0.5-0.3-0.6-0.9-0.4-1.4l7.3-12.1c0.3-0.5,0.9-0.6,1.4-0.4l0,0c0.5,0.3,0.6,0.9,0.4,1.4l-7.4,12.2C38,18.1,37.3,18.2,36.9,17.9z" />
+      </g></svg></svg></li-icon>
+				</div>
+				<div class="slate-embed-placeholder-image-container">
+					<img class="slate-embed-placeholder-image"
+						src="data:image/svg+xml;base64,DQo8c3ZnIGlkPSJMYXllcl8xIiBkYXRhLW5hbWU9IkxheWVyIDEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiB2aWV3Qm94PSIwIDAgNTYgNTYiPg0KICA8ZGVmcz4NCiAgICA8c3R5bGU+DQogICAgICAuY2xzLTEgew0KICAgICAgICBmaWxsOiAjZmZmOw0KICAgICAgfQ0KDQogICAgICAuY2xzLTIgew0KICAgICAgICBmaWxsOiAjMDA1ZTkzOw0KICAgICAgfQ0KDQogICAgICAuY2xzLTMgew0KICAgICAgICBmaWxsOiAjMDBhMGRjOw0KICAgICAgfQ0KICAgIDwvc3R5bGU+DQogIDwvZGVmcz4NCiAgPHRpdGxlPjU2ZHA8L3RpdGxlPg0KICA8Zz4NCiAgICA8cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0yOCw1MC41QTIyLjUsMjIuNSwwLDEsMSw1MC41LDI4LDIyLjUzLDIyLjUzLDAsMCwxLDI4LDUwLjVaIi8+DQogICAgPHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMjgsN0EyMSwyMSwwLDEsMSw3LDI4LDIxLDIxLDAsMCwxLDI4LDdtMC0zQTI0LDI0LDAsMSwwLDUyLDI4LDI0LDI0LDAsMCwwLDI4LDRoMFoiLz4NCiAgPC9nPg0KICA8cGF0aCBjbGFzcz0iY2xzLTMiIGQ9Ik0xOC44MywzMy45NGwtMy43NS00LjY5YTIsMiwwLDAsMSwwLTIuNWwzLjc1LTQuNjksMi4zNCwxLjg3TDE3LjkyLDI4bDMuMjUsNC4wNloiLz4NCiAgPHBhdGggY2xhc3M9ImNscy0zIiBkPSJNMzcuMTcsMzMuOTRsLTIuMzQtMS44N0wzOC4wOCwyOGwtMy4yNS00LjA2LDIuMzQtMS44NywzLjc1LDQuNjlhMiwyLDAsMCwxLDAsMi41WiIvPg0KICA8cmVjdCBjbGFzcz0iY2xzLTMiIHg9IjE3LjY5IiB5PSIyNyIgd2lkdGg9IjIwLjYyIiBoZWlnaHQ9IjMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC05LjEzIDQzLjI1KSByb3RhdGUoLTY3LjE3KSIvPg0KPC9zdmc+">
+				</div>
+				<div class="slate-embed-placeholder-input-container">
+					<input class="slate-embed-placeholder-input"
+						id="slate-embed-placeholder-input"
+						placeholder="Paste the link here and press Enter to Add"
+						type="text">
+				</div>
+			</div>
+			<div class="slate-embed-placeholder-footer">
+				<ul class="slate-embed-placeholder-providers">
+					<li>QQ空间</li>
+					<li>新浪微博</li>
+					<li>或者 更多</li>
+				</ul>
+			</div>
+		</div>
+		<div class="slate-video-embed slate-embed-placeholder"
+			data-slate-ignore="true" style="clear: both;" tabindex="0"
+			contenteditable="false">
+			<button class="slate-embed-close-button" role="button">
+				<li-icon type="cancel-icon" color="true" size="medium" role="img"
+					aria-label="Cancel embed"> <svg
+					style="height: 24px; width: 24px;">
+					<svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0"
+						preserveAspectRatio="xMinYMin meet" class="icon">
+						<g class="large-icon" style="fill: currentColor">
+        <path
+							d="M20,5.32L13.32,12,20,18.68,18.66,20,12,13.33,5.34,20,4,18.68,10.68,12,4,5.32,5.32,4,12,10.69,18.68,4Z" />
+      </g></svg></svg></li-icon>
+			</button>
+			<div class="slate-embed-placeholder-body">
+				<div class="slate-embed-loader">
+					<li-icon aria-hidden="true" type="loader" class="blue"> <svg
+						style="height: 60px; width: 60px;">
+						<svg width="60px" height="60px" viewBox="0 0 60 60">
+							<g class="large-icon" style="fill: currentColor;">
+        <path opacity="1"
+								d="M30.1,16.1L30.1,16.1c-0.6,0-1-0.5-1-1V1c0-0.6,0.5-1,1-1l0,0c0.6,0,1,0.5,1,1v14.1C31.1,15.7,30.6,16.1,30.1,16.1z" />
+        <path opacity="0.85"
+								d="M23.1,18.1L23.1,18.1c-0.5,0.3-1.1,0.1-1.4-0.4L14.5,5.6c-0.3-0.5-0.2-1.1,0.4-1.4l0,0C15.4,3.9,16,4,16.3,4.6l7.2,12.1C23.8,17.2,23.6,17.8,23.1,18.1z" />
+        <path opacity="0.77"
+								d="M17.9,23.1L17.9,23.1c-0.3,0.5-0.9,0.7-1.4,0.4l-12.2-7c-0.5-0.3-0.7-0.9-0.4-1.4l0,0c0.3-0.5,0.9-0.7,1.4-0.4l12.2,7C18,22,18.2,22.7,17.9,23.1z" />
+        <path opacity="0.69"
+								d="M16.1,30.1L16.1,30.1c0,0.6-0.5,1-1,1L1,31.2c-0.6,0-1-0.5-1-1l0,0c0-0.6,0.5-1,1-1l14.1-0.1C15.7,29.1,16.1,29.5,16.1,30.1z" />
+        <path opacity="0.61"
+								d="M18,36.9L18,36.9c0.3,0.5,0.2,1.1-0.4,1.4L5.5,45.6c-0.5,0.3-1.1,0.2-1.4-0.4l0,0c-0.3-0.5-0.2-1.1,0.4-1.4l12.1-7.3C17.1,36.2,17.7,36.4,18,36.9z" />
+        <path opacity="0.53"
+								d="M23.3,42.1L23.3,42.1c0.5,0.3,0.6,0.9,0.4,1.4l-7.3,12.1c-0.3,0.5-0.9,0.6-1.4,0.4l0,0c-0.5-0.3-0.6-0.9-0.4-1.4l7.3-12.1C22.1,41.9,22.8,41.8,23.3,42.1z" />
+        <path opacity="0.45"
+								d="M30.1,43.9L30.1,43.9c0.6,0,1,0.5,1,1V59c0,0.6-0.5,1-1,1l0,0c-0.6,0-1-0.5-1-1V44.9C29,44.4,29.5,43.9,30.1,43.9z" />
+        <path opacity="0.37"
+								d="M37,41.9L37,41.9c0.5-0.3,1.1-0.2,1.4,0.4l7.2,12.1c0.3,0.5,0.2,1.1-0.4,1.4l0,0c-0.5,0.3-1.1,0.2-1.4-0.4l-7.2-12.1C36.4,42.8,36.6,42.2,37,41.9z" />
+        <path opacity="0.29"
+								d="M42.2,36.8L42.2,36.8c0.3-0.5,0.9-0.7,1.4-0.4l12.2,7c0.5,0.3,0.7,0.9,0.4,1.4l0,0c-0.3,0.5-0.9,0.7-1.4,0.4l-12.2-7C42.1,38,41.9,37.4,42.2,36.8z" />
+        <path opacity="0.21 "
+								d="M44,29.9L44,29.9c0-0.6,0.5-1,1-1h14.1c0.6,0,1,0.5,1,1l0,0c0,0.6-0.5,1-1,1L45,31C44.4,31,44,30.5,44,29.9z" />
+        <path opacity="0.13"
+								d="M42.1,23.1L42.1,23.1c-0.3-0.5-0.2-1.1,0.4-1.4l12.1-7.3c0.5-0.3,1.1-0.2,1.4,0.4l0,0c0.3,0.4,0.1,1.1-0.4,1.3l-12.1,7.3C43.1,23.7,42.4,23.6,42.1,23.1z" />
+        <path opacity="0.05"
+								d="M36.9,17.9L36.9,17.9c-0.5-0.3-0.6-0.9-0.4-1.4l7.3-12.1c0.3-0.5,0.9-0.6,1.4-0.4l0,0c0.5,0.3,0.6,0.9,0.4,1.4l-7.4,12.2C38,18.1,37.3,18.2,36.9,17.9z" />
+      </g></svg></svg></li-icon>
+				</div>
+				<div class="slate-embed-placeholder-image-container">
+					<img class="slate-embed-placeholder-image" src="../img/video.svg">
+				</div>
+				<div class="slate-embed-placeholder-input-container">
+					<input class="slate-embed-placeholder-input"
+						id="slate-embed-placeholder-input"
+						placeholder="Paste the video link here and press Enter to Add"
+						type="text">
+				</div>
+
+			</div>
+			<div class="slate-embed-placeholder-footer clearfix">
+				<ul class="slate-embed-placeholder-providers">
+					<li>优库</li>
+					<li>腾讯课堂</li>
+					<li>百度传课</li>
+				</ul>
+			</div>
+		</div>
+		<div class="slate-image-embed slate-embed-placeholder"
+			data-slate-ignore="true" style="clear: both;" tabindex="0"
+			contenteditable="false">
+			<button class="slate-embed-close-button" role="button">
+				<li-icon type="cancel-icon" color="true" size="medium" role="img"
+					aria-label="Cancel embed"> <svg
+					style="height: 24px; width: 24px;">
+					
+				
+				
+				
+				<svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0"
+						preserveAspectRatio="xMinYMin meet" class="icon">
+						<g class="large-icon" style="fill: currentColor">
+        <path
+							d="M20,5.32L13.32,12,20,18.68,18.66,20,12,13.33,5.34,20,4,18.68,10.68,12,4,5.32,5.32,4,12,10.69,18.68,4Z" />
+      </g></svg> </svg></li-icon>
+			</button>
+			<div class="slate-embed-placeholder-body">
+				<div class="slate-embed-loader">
+					<li-icon aria-hidden="true" type="loader" class="blue"> <svg
+						style="height: 60px; width: 60px;">
+						<svg width="60px" height="60px" viewBox="0 0 60 60">
+							<g class="large-icon" style="fill: currentColor;">
+        <path opacity="1"
+								d="M30.1,16.1L30.1,16.1c-0.6,0-1-0.5-1-1V1c0-0.6,0.5-1,1-1l0,0c0.6,0,1,0.5,1,1v14.1C31.1,15.7,30.6,16.1,30.1,16.1z" />
+        <path opacity="0.85"
+								d="M23.1,18.1L23.1,18.1c-0.5,0.3-1.1,0.1-1.4-0.4L14.5,5.6c-0.3-0.5-0.2-1.1,0.4-1.4l0,0C15.4,3.9,16,4,16.3,4.6l7.2,12.1C23.8,17.2,23.6,17.8,23.1,18.1z" />
+        <path opacity="0.77"
+								d="M17.9,23.1L17.9,23.1c-0.3,0.5-0.9,0.7-1.4,0.4l-12.2-7c-0.5-0.3-0.7-0.9-0.4-1.4l0,0c0.3-0.5,0.9-0.7,1.4-0.4l12.2,7C18,22,18.2,22.7,17.9,23.1z" />
+        <path opacity="0.69"
+								d="M16.1,30.1L16.1,30.1c0,0.6-0.5,1-1,1L1,31.2c-0.6,0-1-0.5-1-1l0,0c0-0.6,0.5-1,1-1l14.1-0.1C15.7,29.1,16.1,29.5,16.1,30.1z" />
+        <path opacity="0.61"
+								d="M18,36.9L18,36.9c0.3,0.5,0.2,1.1-0.4,1.4L5.5,45.6c-0.5,0.3-1.1,0.2-1.4-0.4l0,0c-0.3-0.5-0.2-1.1,0.4-1.4l12.1-7.3C17.1,36.2,17.7,36.4,18,36.9z" />
+        <path opacity="0.53"
+								d="M23.3,42.1L23.3,42.1c0.5,0.3,0.6,0.9,0.4,1.4l-7.3,12.1c-0.3,0.5-0.9,0.6-1.4,0.4l0,0c-0.5-0.3-0.6-0.9-0.4-1.4l7.3-12.1C22.1,41.9,22.8,41.8,23.3,42.1z" />
+        <path opacity="0.45"
+								d="M30.1,43.9L30.1,43.9c0.6,0,1,0.5,1,1V59c0,0.6-0.5,1-1,1l0,0c-0.6,0-1-0.5-1-1V44.9C29,44.4,29.5,43.9,30.1,43.9z" />
+        <path opacity="0.37"
+								d="M37,41.9L37,41.9c0.5-0.3,1.1-0.2,1.4,0.4l7.2,12.1c0.3,0.5,0.2,1.1-0.4,1.4l0,0c-0.5,0.3-1.1,0.2-1.4-0.4l-7.2-12.1C36.4,42.8,36.6,42.2,37,41.9z" />
+        <path opacity="0.29"
+								d="M42.2,36.8L42.2,36.8c0.3-0.5,0.9-0.7,1.4-0.4l12.2,7c0.5,0.3,0.7,0.9,0.4,1.4l0,0c-0.3,0.5-0.9,0.7-1.4,0.4l-12.2-7C42.1,38,41.9,37.4,42.2,36.8z" />
+        <path opacity="0.21 "
+								d="M44,29.9L44,29.9c0-0.6,0.5-1,1-1h14.1c0.6,0,1,0.5,1,1l0,0c0,0.6-0.5,1-1,1L45,31C44.4,31,44,30.5,44,29.9z" />
+        <path opacity="0.13"
+								d="M42.1,23.1L42.1,23.1c-0.3-0.5-0.2-1.1,0.4-1.4l12.1-7.3c0.5-0.3,1.1-0.2,1.4,0.4l0,0c0.3,0.4,0.1,1.1-0.4,1.3l-12.1,7.3C43.1,23.7,42.4,23.6,42.1,23.1z" />
+        <path opacity="0.05"
+								d="M36.9,17.9L36.9,17.9c-0.5-0.3-0.6-0.9-0.4-1.4l7.3-12.1c0.3-0.5,0.9-0.6,1.4-0.4l0,0c0.5,0.3,0.6,0.9,0.4,1.4l-7.4,12.2C38,18.1,37.3,18.2,36.9,17.9z" />
+      </g></svg></svg></li-icon>
+				</div>
+				<div class="slate-embed-placeholder-image-container">
+					<img class="slate-embed-placeholder-image" src="../img/image.svg">
+				</div>
+				<h4 class="slate-embed-placeholder-title">
+					<span class="slate-placeholder-title-label">Drop an image
+						here or</span> <label for="slate-inline-image-uploader">
+						<div class="slate-placeholder-upload-title" role="button">
+							<span class="slate-placeholder-upload-title-content">Upload
+								from computer</span> <input  name="slate-inline-image-uploader"
+								class="slate-placeholder-file" type="file">
+						</div>
+					</label>
+				</h4>
+				<div class="slate-embed-placeholder-input-container">
+					<input class="slate-embed-placeholder-input"
+						id="slate-embed-placeholder-input" type="text">
+				</div>
+				<label class="slate-embed-placeholder-error"
+					for="slate-embed-placeholder-input"> </label>
+			</div>
+			<div class="slate-embed-placeholder-footer">
+				<input class="slate-embed-placeholder-search-input" type="text">
+				<ul class="slate-embed-placeholder-providers">
+				</ul>
+			</div>
+		</div>
+		<div class="slate-embed-toolbar-wrapper" data-slate-ignore="true"
+			contenteditable="false">
+			<div class="slate-embed-toolbar">
+				<button data-toolbar-button-type="image"
+					data-toolbar-button-name="slate-image-embed">
+					<div class="slate-embed-toolbar-icon">
+						<li-icon type="image-icon" color="true" size="medium" role="img"
+							aria-label="Image"> <svg
+							style="height: 100%; width: 100%;">
+						<svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0"
+								preserveAspectRatio="xMinYMin meet" class="icon">
+							<g class="large-icon" style="fill: currentColor">
+        <path
+									d="M21,4H3A1,1,0,0,0,2,5V19a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V5A1,1,0,0,0,21,4ZM20,6V16.65l-3.7-3.53a0.44,0.44,0,0,0-.6,0L13.79,15,7.87,9.13a0.44,0.44,0,0,0-.62,0L4,12.4V6H20ZM4,18V13.64l3.57-3.59,5.91,5.82a0.44,0.44,0,0,0,.61,0L16,14l4,3.82V18H4Zm12-6a2,2,0,1,0-2-2A2,2,0,0,0,16,12Zm0-3.25A1.25,1.25,0,1,1,14.75,10,1.25,1.25,0,0,1,16,8.75Z" />
+      </g></svg></svg></li-icon>
+					</div>
+					<span class="slate-embed-toolbar-label">图片</span>
+				</button>
+				<button data-toolbar-button-type="video"
+					data-toolbar-button-name="slate-video-embed">
+					<div class="slate-embed-toolbar-icon">
+						<li-icon type="video-camera-icon" color="true" size="medium"
+							role="img" aria-label="Video"> <svg
+							style="height: 100%; width: 100%;">
+						<svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0"
+								preserveAspectRatio="xMinYMin meet">
+							<g class="large-icon" style="fill: currentColor">
+        <path
+									d="M21,5.92a1,1,0,0,0-.57.18L17,8.5V7a1,1,0,0,0-1-1H3A1,1,0,0,0,2,7V17a1,1,0,0,0,1,1H16a1,1,0,0,0,1-1V15.5l3.43,2.4a1,1,0,0,0,.57.18,1,1,0,0,0,1-1V6.92A1,1,0,0,0,21,5.92ZM15,16H4V8H15v8Zm2-5.21,3-2.1v6.62l-3-2.1V10.79Z" />
+      </g></svg></svg></li-icon>
+					</div>
+					<span class="slate-embed-toolbar-label">视频</span>
+				</button>
+
+				<button data-toolbar-button-type="universal"
+					data-toolbar-button-name="slate-universal-embed">
+					<div class="slate-embed-toolbar-icon">
+						<li-icon type="link-icon" color="true" size="medium" role="img"
+							aria-label="Link"> <svg
+							style="height: 100%; width: 100%;">
+						<svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0"
+								preserveAspectRatio="xMinYMin meet" class="icon">
+							<g class="large-icon" style="fill: currentColor">
+        <path
+									d="M17.29,3a3.7,3.7,0,0,0-2.62,1.09L12.09,6.67A3.7,3.7,0,0,0,11,9.29a3.65,3.65,0,0,0,.52,1.86l-0.37.37a3.66,3.66,0,0,0-4.48.56L4.09,14.67a3.71,3.71,0,1,0,5.24,5.24l2.59-2.59A3.7,3.7,0,0,0,13,14.71a3.65,3.65,0,0,0-.52-1.86l0.37-.37a3.66,3.66,0,0,0,4.48-.57l2.59-2.59A3.71,3.71,0,0,0,17.29,3ZM11.13,14.71a1.82,1.82,0,0,1-.54,1.3L8,18.59A1.83,1.83,0,0,1,5.41,16L8,13.41a1.79,1.79,0,0,1,1.74-.48L8.28,14.4A0.94,0.94,0,0,0,9.6,15.73l1.46-1.46A1.82,1.82,0,0,1,11.13,14.71ZM18.59,8L16,10.59a1.79,1.79,0,0,1-1.74.48L15.73,9.6A0.94,0.94,0,0,0,14.4,8.27L12.94,9.74A1.79,1.79,0,0,1,13.41,8L16,5.41A1.83,1.83,0,0,1,18.59,8Z" />
+      </g></svg></svg></li-icon>
+					</div>
+					<span class="slate-embed-toolbar-label">链接</span>
+				</button>
+				<button data-toolbar-button-type="code"
+					data-toolbar-button-name="code-block">
+					<div class="slate-embed-toolbar-icon">
+						<li-icon type="curly-braces-icon" color="true" size="medium"
+							role="img" aria-label="Code"> <svg
+							style="height: 100%; width: 100%;">
+						<svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0"
+								preserveAspectRatio="xMinYMin meet">
+							<g class="large-icon" style="fill: currentColor">
+        <path
+									d="M9,5A1.9,1.9,0,0,0,7,6.88v3.3a2,2,0,0,1-.59,1.41L6,12l0.41,0.41A2,2,0,0,1,7,13.83v2.3A1.9,1.9,0,0,0,9,18h1v2H9a4,4,0,0,1-4-4V13.88A0.9,0.9,0,0,0,4,13H3V11H4a0.9,0.9,0,0,0,1-.87V7A4,4,0,0,1,9,3h1V5H9Zm6,0a1.9,1.9,0,0,1,2,1.88v3.3a2,2,0,0,0,.59,1.41L18,12l-0.41.41A2,2,0,0,0,17,13.83v2.3A1.9,1.9,0,0,1,15,18H14v2h1a4,4,0,0,0,4-4V13.88A0.9,0.9,0,0,1,20,13h1V11H20a0.9,0.9,0,0,1-1-.87V7a4,4,0,0,0-4-4H14V5h1Z" />
+      </g></svg></svg></li-icon>
+					</div>
+					<span class="slate-embed-toolbar-label">代码片</span>
+				</button>
+			</div>
+		</div>
+	</div>
+	<article>
+		<section id="ember1017" class="ember-view slate-container">
+			<section id="ember1052" class="ember-view cover-image">
+				<div id="ember1062" class="cover-image__drop ember-view">
+					<label class="cover-image__label" for="cover-image__file-input">
+						Drag image here or <span class="faux-link">upload from
+							computer</span>
+					</label>
+					<div id="ember1071" class="ember-view cover-image__disable-wrapper">
+						<div id="remove-cover-image" class="ember-view tooltip-container">
+							<div class="tooltip-trigger"
+								aria-describedby="tooltip-remove-cover-image">
+								<button class="slate-embed-close-button" role="button">
+									<li-icon type="cancel-icon" color="true" size="medium"
+										role="img" aria-label="Cancel embed"> <svg
+										style="height: 24px; width: 24px;">
+					<svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0"
+											preserveAspectRatio="xMinYMin meet" class="icon">
+						<g class="large-icon" style="fill: currentColor">
+        <path
+												d="M20,5.32L13.32,12,20,18.68,18.66,20,12,13.33,5.34,20,4,18.68,10.68,12,4,5.32,5.32,4,12,10.69,18.68,4Z" />
+      </g></svg></svg></li-icon>
+								</button>
+
+							</div>
+
+							<div role="tooltip" class="tooltip tooltip-right "
+								id="tooltip-remove-cover-image">Remove cover</div>
+						</div>
+					</div>
+
+
+					<input id="cover-image__file-input" name="cover-image__file-input"
+						class="cover-image__file-input" type="file"
+						accept="image/png,image/gif,image/jpg,image/jpeg"
+						data-max_size='2000000'>
+				</div>
+				<!---->
+			</section>
+			<section class="post-container">
+				<span id="ember1098" class="ember-view a11y-label-wrapper"><label
+					class="a11y-label" for="ember1111"> Post headline </label> <textarea
+						id="ember1111" maxlength="150" placeholder="标题" rows="1"
+						class="ember-view ember-text-area post-headline"
+						style="overflow-x: hidden; overflow-wrap: break-word; height: auto;"></textarea>
+				</span>
+				<div id="ember1120"
+					class="ember-view post-editor ql-container ql-slate">
+					<div class="ql-tooltip ql-hidden">
+						<div class="ql-link-editor">
+							<input id="text-input" placeholder="Add text to display"
+								type="text"> <input id="url-input"
+								placeholder="Paste URL link and press enter to add" type="text">
+							<a class="ql-link-preview"></a>
+							<button class="ql-save">Apply</button>
+							<button class="ql-edit">Edit</button>
+							<span class="divider" aria-hidden="true" role="presentation"></span>
+							<button class="ql-close">Remove</button>
+						</div>
+					</div>
+					<div class="ql-editor ql-blank"
+						data-placeholder="Write here. Add images or a video for visual impact."
+						aria-label="Write here. Add images or a video for visual impact."
+						contenteditable="true">
+						<p>
+							<br>
+						</p>
+					</div>
+					<div class="ql-clipboard" tabindex="-1" contenteditable="true"></div>
+				</div>
+				<div id="quill-convert-container"></div>
+				<button class="embed-insertion-control cannot-insert"
+					style="top: 481.317px; left: 238px;">
+					<span class="slate-insertion-control-active-icon"><li-icon
+							type="cancel-icon" color="true" size="medium" role="img"
+							aria-label="Cancel embed"> <svg
+							style="height: 100%; width: 100%;">
+							<svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0"
+								preserveAspectRatio="xMinYMin meet" class="icon">
+								<g class="large-icon" style="fill: currentColor">
+        <path
+									d="M20,5.32L13.32,12,20,18.68,18.66,20,12,13.33,5.34,20,4,18.68,10.68,12,4,5.32,5.32,4,12,10.69,18.68,4Z" />
+      </g></svg></svg></li-icon></span><span class="slate-insertion-control-default-icon"><li-icon
+							type="content-add-icon" color="true" size="medium" role="img"
+							aria-label="Insert Content"> <svg
+							style="height: 100%; width: 100%;">
+							<svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0"
+								preserveAspectRatio="xMinYMin meet">
+								<g class="large-icon" style="fill: currentColor">
+        <path
+									d="M14,18v2H3c-0.6,0-1-0.4-1-1V5c0-0.6,0.4-1,1-1h17c0.6,0,1,0.4,1,1v8h-2V6H4v12H14z M24,18h-3v-3h-2v3h-3v2h3v3h2v-3h3V18z" />
+      </g></svg></svg></li-icon></span>
+				</button>
+			</section>
+
+		</section>
+		<nav class="zen-nav">
+			<div class="pl-buttons">
+				<span><button class="widget-button" aria-label="save"
+						title="保存">保存</button>
+					<button class="widget-button" aria-label="publish" title="发布">发布</button></span>
+			</div>
+			<div class="pl-href">
+				<ul class="channels pl-box">
+					<li><a href="#" drafts>草稿</a></li>
+					<li><a href="#" publish>在架</a></li>
+				</ul>
+			</div>
+			<div class="ql-toolbar">
+				<div class="ember-view category-panel" defaultsite="site.b2c">
+					<span label title="发布站点"><img src="/img/database.svg">&gt;</span><span
+						site="site.b2c"><a href="#">官方自营</a></span><span site="site.c2c"><a
+						href="#">商家运营</a></span>
+					<div class="category-popup" selectsite="site.b2c">
+						<div class="category-wrap">
+							<div class="category-settings" path="" cat-level="">
+								<span label></span><span address title="发布到的路径">官方自营://男装|女装/女装/连衣裙</span>
+								<div class="category-parallels" title="请选择要发布到的细类"></div>
+							</div>
+							<div class="category-region"></div>
+						</div>
+					</div>
+				</div>
+				<div class="toolbar-wrapper">
+					<span class="ql-li-heading ql-picker"><span
+						class="ql-picker-label">Normal</span><span
+						class="ql-picker-options"><span class="ql-picker-item"
+							data-value="1" data-name="Heading 1">Heading 1</span><span
+							class="ql-picker-item" data-value="2" data-name="Heading 2">Heading
+								2</span><span class="ql-picker-item" data-value="false"
+							data-name="Normal">Normal</span></span></span><select class="ql-li-heading"
+						style="display: none;">
+						<option value="1" name="Heading 1">Heading 1</option>
+						<option value="2" name="Heading 2">Heading 2</option>
+						<option value="false" name="Normal" selected="">Normal</option>
+					</select>
+
+					<div class="button-group">
+						<button class="ql-li-bold" type="button">
+							<li-icon type="bold-icon" size="small" role="img"
+								aria-label="Bold"> <svg
+								style="height: 100%; width: 100%;">
+								<svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0"
+									preserveAspectRatio="xMinYMin meet" class="icon">
+									<g class="small-icon" style="fill: currentColor">
+        <path
+										d="M14,4.7c0-2-1.7-3.7-3.7-3.7L2,1v1.2l1,0.2v11l-1,0.2V15h8.3c2,0,3.7-1.7,3.7-3.7v-0.6c0-1.1-0.5-2-1.2-2.7C13.5,7.3,14,6.4,14,5.3V4.7z M11.2,11.3c0,0.9-0.8,1.7-1.7,1.7H6V9h3.6c0.9,0,1.7,0.8,1.7,1.7V11.3z M11.2,5.3c0,0.9-0.8,1.7-1.7,1.7H6V3h3.6c0.9,0,1.7,0.8,1.7,1.7V5.3z"></path>
+      </g></svg></svg></li-icon>
+						</button>
+						<button class="ql-li-italic" type="button">
+							<li-icon type="italic-icon" size="small" role="img"
+								aria-label="Italic"> <svg
+								style="height: 100%; width: 100%;">
+								<svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0"
+									preserveAspectRatio="xMinYMin meet" class="icon">
+									<g class="small-icon" style="fill: currentColor">
+        <style type="text/css">
+.st0 {
+	enable-background: new;
+}
+</style>
+        <path class="st0"
+										d="M12.7,2.3l-2.5,0.5L7.7,13.2l2.3,0.5L9.7,15H3l0.3-1.3l2.5-0.5L8.3,2.8L6,2.3L6.3,1H13L12.7,2.3z"></path>
+      </g></svg></svg></li-icon>
+						</button>
+						<button class="ql-li-underline" type="button">
+							<li-icon type="underline-icon" size="small" role="img"
+								aria-label="Underline"> <svg
+								style="height: 100%; width: 100%;">
+								<svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0"
+									preserveAspectRatio="xMinYMin meet" class="icon">
+									<g class="small-icon" style="fill: currentColor">
+        <path
+										d="M2,14h12v1H2V14z M10,1v1.2l1,0.2v6.2C11,10,10,11,8.8,11H7.2C6,11,5,10,5,8.8V2.5l1-0.2V1H2v1.2l1,0.2v6.2C3,11.1,4.9,13,7.2,13h1.5c2.3,0,4.2-1.9,4.2-4.2V2.5l1-0.2V1H10z"></path>
+      </g></svg></svg></li-icon>
+						</button>
+					</div>
+
+					<div class="button-group">
+						<button class="ql-li-list" value="ordered" type="button">
+							<li-icon type="numbered-list-icon" class="large" role="img"
+								aria-label="Ordered list"> <svg
+								style="height: 100%; width: 100%;">
+								<svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0"
+									preserveAspectRatio="xMinYMin meet" class="icon">
+									<g class="large-icon" style="fill: currentColor">
+        <rect x="9" y="5" width="11" height="2"></rect>
+        <rect x="9" y="11" width="11" height="2"></rect>
+        <rect x="9" y="17" width="11" height="2"></rect>
+        <path d="M4,8H5V5A1,1,0,0,0,4,4H3V5H4V8Z"></path>
+        <path
+										d="M5,16H3v1H5v0.5H4v1H5V19H3v1H5a1,1,0,0,0,1-1V17A1,1,0,0,0,5,16Z"></path>
+        <path
+										d="M5,10H3v1H5v0.5H4a1,1,0,0,0-1,1V14H6V13H4V12.5H5a1,1,0,0,0,1-1V11A1,1,0,0,0,5,10Z"></path>
+      </g></svg></svg></li-icon>
+						</button>
+						<button class="ql-li-list" value="bullet" type="button">
+							<li-icon type="bulleted-list-icon" class="large" role="img"
+								aria-label="Unordered list"> <svg
+								style="height: 100%; width: 100%;">
+								<svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0"
+									preserveAspectRatio="xMinYMin meet" class="icon">
+									<g class="large-icon" style="fill: currentColor">
+        <rect x="8" y="5" width="12" height="2"></rect>
+        <circle cx="4" cy="6" r="1.34"></circle>
+        <rect x="8" y="11" width="12" height="2"></rect>
+        <circle cx="4" cy="12" r="1.34"></circle>
+        <rect x="8" y="17" width="12" height="2"></rect>
+        <circle cx="4" cy="18" r="1.34"></circle>
+      </g></svg></svg></li-icon>
+						</button>
+					</div>
+
+					<div class="button-group">
+						<button class="ql-li-blockquote" type="button">
+							<li-icon type="quote-icon" size="small" role="img"
+								aria-label="Blockquote"> <svg
+								style="height: 100%; width: 100%;">
+								<svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0"
+									preserveAspectRatio="xMinYMin meet" class="icon">
+									<g class="small-icon" style="fill: currentColor">
+        <path
+										d="M7,6.5C7,4.6,5.4,3,3.5,3C1.5,3,0,4.6,0,6.5C0,8.3,1.3,9.8,3.1,10l-1.6,2.3l1.5,1l3.4-4.9C6.8,7.9,7,7.2,7,6.5z M16,6.5C16,4.6,14.4,3,12.5,3C10.5,3,9,4.6,9,6.5c0,1.8,1.3,3.2,3.1,3.5l-1.6,2.4l1.6,1l3.4-4.8C15.8,7.9,16,7.2,16,6.5z"></path>
+      </g></svg></svg></li-icon>
+						</button>
+						<button class="ql-li-link" type="button">
+							<li-icon type="link-icon" size="small" role="img"
+								aria-label="Link"> <svg
+								style="height: 100%; width: 100%;">
+								<svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0"
+									preserveAspectRatio="xMinYMin meet" class="icon">
+									<g class="small-icon" style="fill: currentColor">
+        <path
+										d="M11,2a3,3,0,0,0-2.1.87L6.87,4.94a2.93,2.93,0,0,0-.72,1.21,2.93,2.93,0,0,0-1.21.72L2.87,8.94a3,3,0,1,0,4.19,4.19l2.07-2.07a2.93,2.93,0,0,0,.72-1.21,2.93,2.93,0,0,0,1.21-.72l2.07-2.07A3,3,0,0,0,11,2ZM5.83,11.89a1.22,1.22,0,0,1-1.72-1.72L6.17,8.11l0,0A3,3,0,0,0,7.91,9.8l0,0Zm6.07-6.07L9.83,7.89l0,0A3,3,0,0,0,8.09,6.2l0,0,2.07-2.07A1.22,1.22,0,0,1,11.89,5.83Z"></path>
+      </g></svg></svg></li-icon>
+						</button>
+					</div>
+
+				</div>
+				<button id="ember1226" class="ember-view enable-cover-image">添加背景图
+				</button>
+			</div>
+		</nav>
+	</article>
+</div>

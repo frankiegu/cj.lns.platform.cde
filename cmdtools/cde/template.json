@@ -1,0 +1,30 @@
+[
+	{
+		"name": "about",
+		"display": "广州连元信息科技有限公司",
+		"site": "site.wisdoms",
+		"sort": 1,
+		"target": "_self",
+		"secondaries": {
+			"lxhj": {
+				"name": "lxhj",
+				"pdisplay": "联系",
+				"display": "联系",
+				"href": "http://cjlns.com",
+				"tips": "联系",
+				"sort": 0,
+				"target": "_self",
+				"tertiaries": {
+					"lxfs": {
+						"name": "lxfs",
+						"tips": "联系",
+						"display": "联系",
+						"sort": 0,
+						"target": "_self"
+					}
+				}
+			}
+		}
+	}
+	
+]

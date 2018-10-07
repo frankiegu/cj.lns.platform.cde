@@ -1,0 +1,120 @@
+#category-site{
+	position: relative;
+	padding-left: 200px;
+	height: 400px;
+	overflow: hidden;
+}
+#category-site>.category-left{
+	position:absolute;
+	height: auto;
+	width:200px;
+	left:0;
+	top:0;
+}
+#category-site>.category-left>.left-wrap{
+	padding:  0;
+	overflow: auto;
+	max-height: 400px;
+}
+#category-site>.category-left .primaries{
+	font-weight: bold;
+}
+#category-site>.category-left .primaries>.primary{
+	padding: 10px 10px;
+	color: gray;
+	position: relative;
+}
+#category-site>.category-left .primaries>.primary>span{
+	line-height: 20px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width:170px;
+	display:block;
+	overflow: hidden;
+}
+#category-site>.category-left .primaries>.primary:hover{
+	background: #f7f7f7;
+	color: gray !important;
+}
+#category-site>.category-left .primaries>.primary a{
+	padding: 0 5px;
+}
+#category-site>.category-left .primaries>.primary a:hover{
+	text-decoration: underline !important;
+}
+#category-site>.category-right{
+	min-width: 300px;
+	overflow: auto;
+	height: 400px;
+	background: #f7f7f7;
+}
+#category-site>.category-left .primaries>.primary .service-arrow {
+    position: absolute;
+    right: 15px;
+    font-weight: bold;
+    color: gray;
+	font-size: 12px;
+	top:50%;
+	margin-top: -6px;
+}
+.tb-icon, .iconfont {
+    font-family: iconfont!important;
+    font-size: 12px;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.subitems {
+    float: left;
+    min-height: 380px;
+    padding: 6px 0 0 20px;
+    width: 800px;
+}
+.subitems dl {
+    line-height: 2em;
+    overflow: hidden;
+    width: 100%;
+}
+.subitems dt {
+    float: left;
+    font-weight: 700;
+    padding: 8px 30px 0 0;
+    position: relative;
+    text-align: right;
+    width: 124px;
+    overflow: auto;
+}
+.subitems dt i{
+	font-size: 12px;
+	color: #ececec;
+	padding-left: 4px;
+	display: none;
+}
+
+.subitems dd {
+    border-top: 1px solid #eee;
+    float: left;
+    padding: 6px 0;
+   width: 620px;
+   margin-left: 0;
+}
+.subitems dt a{
+	 color: #666 !important;
+    text-decoration: none;
+    font-weight: bold;
+     font-size: 12px;
+}
+.subitems dd a {
+    border-left: 1px solid #e0e0e0;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin: 4px 0;
+    padding: 0 8px;
+    white-space: nowrap;
+     color: #666 !important;
+     font-size: 12px;
+     font-weight: normal;
+}

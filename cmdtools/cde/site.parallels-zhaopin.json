@@ -1,0 +1,513 @@
+[
+	{
+		"name": "webportal",
+		"display": "web框架",
+		"isMutiselect": true,
+		"tips": "web框架",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "zhuanyelie",
+			"tertiary": "jingli"
+		},
+		"map": {
+			"jss": "jss",
+			"struts2": "struts2",
+			"spring_mvc": "spring mvc",
+			"other": "其它"
+		},
+		"sort": 0
+	},{
+		"name": "webportal",
+		"display": "web框架",
+		"isMutiselect": true,
+		"tips": "web框架",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "gongjv",
+			"tertiary": "webkfgcs"
+		},
+		"map": {
+			"jss": "jss",
+			"struts2": "struts2",
+			"spring_mvc": "spring mvc",
+			"other": "其它"
+		},
+		"sort": 0
+	},{
+		"name": "appportal",
+		"display": "移动框架",
+		"isMutiselect": true,
+		"tips": "移动框架",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "zhuanyelie",
+			"tertiary": "jingli"
+		},
+		"map": {
+			"iaf": "Intel App Framework",
+			"jmobile": "jmobile",
+			"other": "其它"
+		},
+		"sort": 0
+	},{
+		"name": "appportal",
+		"display": "移动框架",
+		"isMutiselect": true,
+		"tips": "移动框架",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "gongjv",
+			"tertiary": "webkfgcs"
+		},
+		"map": {
+			"iaf": "Intel App Framework",
+			"jmobile": "jmobile",
+			"other": "其它"
+		},
+		"sort": 0
+	},{
+		"name": "lns",
+		"display": "面向连结编程",
+		"isMutiselect": true,
+		"tips": "面向连结编程",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "zhuanyelie",
+			"tertiary": "jingli"
+		},
+		"map": {
+			"neuron": "neuron",
+			"ecm": "ecm",
+			"net": "net",
+			"plus": "plus"
+		},
+		"sort": 0
+	},{
+		"name": "lns",
+		"display": "面向连结编程",
+		"isMutiselect": true,
+		"tips": "面向连结编程",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "gongjv",
+			"tertiary": "webkfgcs"
+		},
+		"map": {
+			"ecm": "ecm",
+			"net": "net",
+			"plus": "plus"
+		},
+		"sort": 0
+	},{
+		"name": "webcontainer",
+		"display": "web容器",
+		"isMutiselect": true,
+		"tips": "web容器",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "zhuanyelie",
+			"tertiary": "jingli"
+		},
+		"map": {
+			"neuron": "neuron",
+			"tomcat": "tomcat",
+			"jetty": "jetty",
+			"websphere": "websphere",
+			"weblogic": "weblogic",
+			"other": "其它"
+		},
+		"sort": 0
+	},{
+		"name": "webcontainer",
+		"display": "web容器",
+		"isMutiselect": true,
+		"tips": "web容器",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "gongjv",
+			"tertiary": "webkfgcs"
+		},
+		"map": {
+			"neuron": "neuron",
+			"tomcat": "tomcat",
+			"jetty": "jetty",
+			"websphere": "websphere",
+			"weblogic": "weblogic",
+			"other": "其它"
+		},
+		"sort": 0
+	},{
+		"name": "orm",
+		"display": "orm",
+		"isMutiselect": true,
+		"tips": "对象-模型映射工具",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "gongjv",
+			"tertiary": "webkfgcs"
+		},
+		"map": {
+			"hibernate": "hibernate",
+			"ibatics": "ibatics",
+			"other": "其它"
+		},
+		"sort": 0
+	},{
+		"name": "orm",
+		"display": "orm",
+		"isMutiselect": true,
+		"tips": "对象-模型映射工具",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "zhuanyelie",
+			"tertiary": "jingli"
+		},
+		"map": {
+			"hibernate": "hibernate",
+			"ibatics": "ibatics",
+			"other": "其它"
+		},
+		"sort": 0
+	},{
+		"name": "database",
+		"display": "database",
+		"isMutiselect": true,
+		"tips": "数据库",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "zhuanyelie",
+			"tertiary": "jingli"
+		},
+		"map": {
+			"mysql": "mysql",
+			"oracle": "oracle",
+			"mongodb": "mongodb",
+			"mdisk": "mdisk",
+			"other": "其它"
+		},
+		"sort": 0
+	},{
+		"name": "database",
+		"display": "database",
+		"isMutiselect": true,
+		"tips": "数据库",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "gongjv",
+			"tertiary": "webkfgcs"
+		},
+		"map": {
+			"mysql": "mysql",
+			"oracle": "oracle",
+			"mongodb": "mongodb",
+			"mdisk": "mdisk",
+			"other": "其它"
+		},
+		"sort": 0
+	},{
+		"name": "language",
+		"display": "language",
+		"isMutiselect": true,
+		"tips": "编程语言",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "gongjv",
+			"tertiary": "webkfgcs"
+		},
+		"map": {
+			"java": "java",
+			"js": "js",
+			"c": "c",
+			"cplus": "c++",
+			"other": "其它"
+		},
+		"sort": 0
+	},{
+		"name": "language",
+		"display": "language",
+		"isMutiselect": true,
+		"tips": "编程语言",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "zhuanyelie",
+			"tertiary": "jingli"
+		},
+		"map": {
+			"java": "java",
+			"js": "js",
+			"c": "c",
+			"cplus": "c++",
+			"other": "其它"
+		},
+		"sort": 0
+	},{
+		"name": "html",
+		"display": "html",
+		"isMutiselect": true,
+		"tips": "html协议",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "zhuanyelie",
+			"tertiary": "jingli"
+		},
+		"map": {
+			"html5": "html5",
+			"css": "css",
+			"other": "其它"
+		},
+		"sort": 0
+	},{
+		"name": "html",
+		"display": "html",
+		"isMutiselect": true,
+		"tips": "html协议",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "gongjv",
+			"tertiary": "webkfgcs"
+		},
+		"map": {
+			"html5": "html5",
+			"css": "css",
+			"other": "其它"
+		},
+		"sort": 0
+	},{
+		"name": "appdevolp",
+		"display": "app开发",
+		"isMutiselect": true,
+		"tips": "app开发",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "gongjv",
+			"tertiary": "webkfgcs"
+		},
+		"map": {
+			"cordova": "cordova",
+			"other": "其它"
+		},
+		"sort": 0
+	},{
+		"name": "appdevolp",
+		"display": "app开发",
+		"isMutiselect": true,
+		"tips": "app开发",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "zhuanyelie",
+			"tertiary": "jingli"
+		},
+		"map": {
+			"cordova": "cordova",
+			"other": "其它"
+		},
+		"sort": 0
+	},{
+		"name": "tongxun",
+		"display": "通讯",
+		"isMutiselect": true,
+		"tips": "通讯",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "zhuanyelie",
+			"tertiary": "jingli"
+		},
+		"map": {
+			"cjnet": "cjnet",
+			"netty": "netty",
+			"websocket": "websocket",
+			"nio": "nio",
+			"other": "其它"
+		},
+		"sort": 0
+	},{
+		"name": "tongxun",
+		"display": "通讯",
+		"isMutiselect": true,
+		"tips": "通讯",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "gongjv",
+			"tertiary": "webkfgcs"
+		},
+		"map": {
+			"cjnet": "cjnet",
+			"netty": "netty",
+			"websocket": "websocket",
+			"nio": "nio",
+			"other": "其它"
+		},
+		"sort": 0
+	},{
+		"name": "jingyan",
+		"display": "经验",
+		"isMutiselect": true,
+		"tips": "经验",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "gongjv",
+			"tertiary": "webkfgcs"
+		},
+		"map": {
+			"shixisheng": "实习生",
+			"one": "1年以上",
+			"two": "2年以上",
+			"foure": "4年以上",
+			"six": "6年以上",
+			"eight": "8年以上",
+			"ten": "10年以上",
+			"ulimit": "不限"
+		},
+		"sort": 0
+	},{
+		"name": "jingyan",
+		"display": "经验",
+		"isMutiselect": true,
+		"tips": "经验",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "zhuanyelie",
+			"tertiary": "jingli"
+		},
+		"map": {
+			"shixisheng": "实习生",
+			"one": "1年以上",
+			"two": "2年以上",
+			"foure": "4年以上",
+			"six": "6年以上",
+			"eight": "8年以上",
+			"ten": "10年以上",
+			"ulimit": "不限"
+		},
+		"sort": 0
+	},{
+		"name": "degree",
+		"display": "学历",
+		"isMutiselect": true,
+		"tips": "学历",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "zhuanyelie",
+			"tertiary": "jingli"
+		},
+		"map": {
+			"dazhuan": "大专",
+			"benke": "本科",
+			"shuoshi": "硕士",
+			"ulimit": "不限"
+		},
+		"sort": 0
+	},{
+		"name": "degree",
+		"display": "学历",
+		"isMutiselect": true,
+		"tips": "学历",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "gongjv",
+			"tertiary": "webkfgcs"
+		},
+		"map": {
+			"dazhuan": "大专",
+			"benke": "本科",
+			"shuoshi": "硕士",
+			"ulimit": "不限"
+		},
+		"sort": 0
+	},{
+		"name": "zhuanye",
+		"display": "专业",
+		"isMutiselect": true,
+		"tips": "专业",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "gongjv",
+			"tertiary": "webkfgcs"
+		},
+		"map": {
+			"jisuanji": "计算机",
+			"xinxi": "信息管理",
+			"ulimit": "不限"
+		},
+		"sort": 0
+	},{
+		"name": "zhuanye",
+		"display": "专业",
+		"isMutiselect": true,
+		"tips": "专业",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "zhuanyelie",
+			"tertiary": "jingli"
+		},
+		"map": {
+			"jisuanji": "计算机",
+			"xinxi": "信息管理",
+			"ulimit": "不限"
+		},
+		"sort": 0
+	},{
+		"name": "sheji",
+		"display": "设计",
+		"isMutiselect": true,
+		"tips": "设计",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "zhuanyelie",
+			"tertiary": "jingli"
+		},
+		"map": {
+			"graffle": "graffle",
+			"visio": "visio",
+			"erwin": "erwin",
+			"ulimit": "不限"
+		},
+		"sort": 0
+	},{
+		"name": "guimo",
+		"display": "团队规模",
+		"isMutiselect": true,
+		"tips": "团队规模",
+		"path": {
+			"site": "site.zhaopin",
+			"primary": "hjyy",
+			"secondary": "zhuanyelie",
+			"tertiary": "jingli"
+		},
+		"map": {
+			"two_four": "2-4人团队",
+			"four_six": "4-6人团队",
+			"six_eight": "6-8人团队",
+			"ten": "10人以上团队",
+			"ulimit": "不限"
+		},
+		"sort": 0
+	}
+]

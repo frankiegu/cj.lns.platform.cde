@@ -1,0 +1,34 @@
+{
+	entryPoint : {
+		activators : [
+		              
+			]
+	},
+	assemblyInfo : {
+		assemblyTitle : "cde",
+		assemblyResource:"/",
+		assemblyDescription : "相关度引擎",
+		assemblyConfiguration : "",
+		assemblyCompany : "开发者：cj;研发机构：cj studio",
+		assemblyProduct : "cj.studio.cde",
+		assemblyCopyright : "Copyright   2011",
+		assemblyTrademark : "",
+		assemblyCulture : "",
+		guid : "48598D43-94AA-402E-BF56-1D89051D4B2F",
+		assemblyVersion : "1.0.0.0",
+		assemblyFileVersion : "1.0.0.0"
+	},
+	global:{
+		default:"zh_CN",
+		desc:"如果系统环境要求各芯片采用的语言本芯片没有，则芯片可采用默认语言"
+		},
+	serviceContainer : {
+		name : "netContainer",
+		scans : [{
+					package : "cj.studio.cde",
+					extName : ".class|.json|.xml",
+					exoterical:"true"
+				}]
+
+	}
+}

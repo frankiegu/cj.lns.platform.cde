@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+html {
+	color: #222;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 19px;
+	background-color: #fff;
+	overflow-y: scroll;
+	direction: ltr;
+}
+
+#main {
+	position: relative;
+}
+
+#offscreen-content {
+	display: none;
+}
+
+#main-outlet {
+	padding-top: 82px;
+}
+
+.wrap {
+	max-width: 1110px;
+}
+
+.wrap {
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0 8px;
+}
+
+.clearfix:after, .nav-pills:after, .container:after, .wrap:after {
+	clear: both;
+}
+
+.clearfix:before, .nav-pills:before, .container:before, .wrap:before,
+	.clearfix:after, .nav-pills:after, .container:after, .wrap:after {
+	display: table;
+	content: " ";
+}
+
+.error-page {
+	text-align: center;
+	padding-top: 2em;
+}
+
+.error-page .face {
+	font-size: 60px;
+	height: 60px;
+}
+
+.error-page .status {
+	font-size: 1.714em;
+	height: 24px;
+}
+
+.error-page .url {
+	font-style: italic;
+	font-size: 11px;
+}
+
+.error-page .message {
+	margin-top: 16px;
+}
+
+.error-page .buttons {
+	display: inline-flex;
+	margin-top: 15px;
+}
+
+a:visited {
+	color: #08c;
+}
+
+a {
+	color: #08c;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a {
+	background: transparent;
+}
+
+user agent stylesheet
+a:-webkit-any-link {
+	color: -webkit-link;
+	text-decoration: underline;
+	cursor: auto;
+}
+
+.error-page .buttons button {
+	margin: 0 20px;
+}
+
+.btn-primary {
+	border: none;
+	font-weight: normal;
+	color: #fff;
+	background: #08c;
+}
+
+.btn {
+	border: none;
+	color: #222;
+	font-weight: normal;
+	background: #e9e9e9;
+}
+
+.btn {
+	display: inline-block;
+	margin: 0;
+	padding: 6px 12px;
+	font-weight: 500;
+	font-size: 1em;
+	line-height: 18px;
+	text-align: center;
+	cursor: pointer;
+	transition: all .25s;
+}
+
+.btn .fa {
+	margin-right: 7px;
+}
+
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+user agent stylesheet
+i, cite, em, var, address, dfn {
+	font-style: italic;
+}
+
+.error-page .buttons button {
+	margin: 0 20px;
+}
+
+.btn-primary {
+	border: none;
+	font-weight: normal;
+	color: #fff;
+	background: #08c;
+}
+
+.fa-refresh:before {
+	content: "\f021";
+}
+</style>
+
+</head>
+<body>
+<body class="docked">
+
+
+	<div class="debug-eyeline"></div>
+
+
+
+
+
+	<section id="main" class="ember-application">
+		<div id="ember792" class="ember-view">
+
+			<div id="main-outlet" class="wrap">
+				<div class="container">
+					<!---->
+					<div id="ember833" class="ember-view"></div>
+					<div id="ember844" class="ember-view hidden create-topics-notice">
+						<!---->
+					</div>
+				</div>
+				<div class="container">
+					<div class="error-page">
+						<div class="face">:(</div>
+						<div class="status">403</div>
+						<!-- <div class="url">
+							无法载入 <a data-auto-route="true"
+								href="#">/topics/private-messages/baiyygynui.json</a>
+						</div> -->
+						<div class="message">
+							<!---->
+							禁止访问
+						</div>
+						<div class="buttons">
+							<button id="ember1099" onclick="javascript:window.location.href='/'" class="ember-view btn btn-primary">
+								<i class="fa fa-undefined"></i> 返回首页
+								
+							</button>
+							<!--<button id="ember1101" class="ember-view btn btn-primary">
+								<i class="fa fa-refresh"></i> 重试
+							</button>-->
+							<div id="ember1098" class="ember-view">
+								<!---->
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="user-card" class="ember-view show-badges">
+					<!---->
+				</div>
+			</div>
+
+			<!---->
+			<!---->
+			<!---->
+
+			<div id="discourse-modal" class="ember-view modal hidden"
+				data-keyboard="false">
+				<div class="modal-outer-container">
+					<div class="modal-middle-container">
+						<div class="modal-inner-container">
+							<div class="modal-header">
+								<a class="close" data-ember-action="871"><i
+									class="fa fa-times"></i></a>
+								<h3>
+									<!---->
+								</h3>
+								<div class="clearfix"></div>
+							</div>
+							<div id="modal-alert"></div>
+							<!---->
+							<!---->
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<div id="offscreen-content"></div>
+
+</body>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+一般的web应用
+
+
+
+该项目需要部署到nueron或netsite上运行
+如果开发的web程序集想部署在诸如tomcat/jetty/weblogic/was等传统web容器上，您需要自行开发，方案有：
+
+方案一（兼容graph)：
+1､自已在您的接口项目中实现一个servlet或侦听器作为中央控制器
+2､在中央控制器中加载（或您的传统容器加载您的接口项目时）装载并启动这个web程序集
+3､从程序集中得到您的webgraph
+4、将请求调度给webgraph的input端子
+
+以上伪码：
+servlet match all request url
+assembly a=a.load(file)
+a.start
+inetgraph g=a.workbin.part('your websitegraph')
+ipin input=g.netinput();
+doServlet url head parameters 
+	frame=new httpframe('get url http/1.1')
+	circuit new httpcircuit('http/1.1 200 ok'):
+	input.flow(frame,circuit);
+	response.out(circuit.content().readFully());
+	
+方案二（不用graph）：
+	1.在传统容器的web目录结构下的lib下开发一个jar,该jar实现控制器中转请求到程序集（程序集内部实现一个外部服务功能如第2所述）。可以使用过滤器或servlet实现该控制器。该jar也实现一个listener用于装载您的程序集
+	2.在程序集中开发一个外部服务用于调度由上述控制器转入的请求，这里要实现资源和服务的调度，以地址作为匹配目标.
+	
+	因此，保证开发者的页面实现方式与使用graph的页面实现方式一致，这样可以在不同的web架构下互转

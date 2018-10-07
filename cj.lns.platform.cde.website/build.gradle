@@ -1,0 +1,38 @@
+sourceSets { 
+	 main { 
+	 	java{
+	 		srcDir "$projectDir/src"
+	 	}
+	 	resources{
+		 	srcDir "$projectDir/site-src"
+		 }
+	 } 
+ 	}
+ 	sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+ 	tasks.withType(JavaCompile) {  
+        options.encoding = "UTF-8"  
+    } 
+ repositories { 
+	 flatDir(dirs: "../global/runtime") 
+ } 
+
+dependencies {
+	compile project(':cj.lns.platform.cde.embed');//指定你要依赖的你公司的其它项目
+	compile group: 'org.jsoup', name: 'jsoup', version: '1.8.1'
+	compile fileTree('../global/runtime')
+	compile fileTree('../global/cjtools')
+	compile fileTree('src/cj/references')//编译和运行时的依赖库，如果将来在神经元或netsite中运行的话，则不必将ecm,net等工具包放入该目录
+	compile fileTree('src/cj/refembeds')
+}
+     task releaseToNeuron(type: Copy){
+      dependsOn "build"
+	     from 'build/libs/'
+	     into '../network/neuron-1.0/apps/cj.lns.platform.cde.website'
+	     include '**/*.jar'
+     }
+     
+     task release(type:Copy){
+      dependsOn "releaseToNeuron"
+     }
+     

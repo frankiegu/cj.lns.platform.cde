@@ -1,0 +1,39 @@
+sourceSets { 
+	 main { 
+	 	java{
+	 		srcDir "$projectDir/src"
+	 	}
+	 	resources{
+		 	srcDir "$projectDir/site-src"
+		 }
+	 } 
+ 	}
+ 	sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+ 	tasks.withType(JavaCompile) {  
+        options.encoding = "UTF-8"  
+    } 
+ repositories { 
+	 flatDir(dirs: "../global/runtime") 
+ } 
+
+dependencies {
+	compile group: 'log4j', name: 'log4j', version: '1.2.17'
+	compile group: 'org.jsoup', name: 'jsoup', version: '1.8.1'
+	//compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.20'
+	compile(
+            'commons-cli:commons-cli:1.2'
+    )
+	//compile project(':your.crop.examples.common');//指定你要依赖的你公司的其它项目，注意：程序集之间不建议有依赖关系。
+	compile fileTree('../global/runtime')
+	compile fileTree('../global/cjtools')
+}
+     task releaseToBuild(type: Copy){
+      dependsOn "build"
+	     from 'build/libs/'
+	     into '../build/cj.lns.platform.cde.main'
+	     include '**/*.jar'
+     }
+     task release(type:Copy){
+      dependsOn "releaseToBuild"
+     }

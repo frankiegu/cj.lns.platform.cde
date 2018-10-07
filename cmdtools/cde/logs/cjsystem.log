@@ -1,0 +1,27 @@
+2016年09月18日 09:09:24  错误: cj.studio.cde.tools.disk.DiskConsole - Query failed with error code 13 and error message 'not authorized on lns_namespace to execute command { find: "named_container", filter: { parent: "-1" } }' on server 121.201.67.55:27017
+2016年10月17日 22:59:05  错误: cj.studio.cde.tools.disk.DiskConsole - Query failed with error code 13 and error message 'not authorized on lns_namespace to execute command { find: "named_container", filter: { parent: "-1" } }' on server 121.201.67.55:27017
+2016年10月25日 20:13:37  错误: cj.studio.cde.tools.disk.DiskConsole - Unrecognized option: -u
+2016年10月25日 23:40:42  错误: cj.studio.cde.tools.pd.PdConsole - invalid hexadecimal representation of an ObjectId: [ls]
+2016年10月25日 23:44:59  错误: cj.studio.cde.tools.pd.PdConsole - 格式：网盘名->存储空间->事象标识
+2016年10月26日 00:08:35  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：removePhon
+2016年10月30日 14:22:08  错误: cj.studio.cde.tools.disk.DiskConsole - Missing argument for option: cube
+2016年10月30日 19:17:22  错误: cj.studio.cde.tools.cat.CatConsole - 地址格式错。缺少站点
+2016年10月30日 19:17:31  错误: cj.studio.cde.tools.cat.CatConsole - 未指定第三级分类，平行分类一定属于三级分类下.路径：site.c2c://
+2016年10月30日 19:20:06  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 1 column 15
+2016年10月30日 19:20:49  错误: cj.studio.cde.tools.cat.CatConsole - 查看平行分类必须指定三级分类路径：site.b2c://fuzhuang/nvzhuang
+2016年10月30日 19:21:14  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 1 column 15
+2016年10月30日 19:21:31  错误: cj.studio.cde.tools.cat.CatConsole - JSON reader was expecting ':' but found ','.
+2016年10月30日 23:49:49  错误: cj.studio.cde.tools.cat.CatConsole - 查看平行分类必须指定三级分类路径：site.b2c://fuzhuang/nvzhuang
+2016年10月30日 23:50:11  错误: cj.studio.cde.tools.cat.CatConsole - JSON reader was expecting ':' but found ','.
+2016年10月31日 00:04:07  错误: cj.studio.cde.tools.cat.CatConsole - 在进行多选查询时，指定的分行分类格式不正确，正确格式是：$['p1','p2']。错误：chima值：$['X','XL'}
+2016年11月01日 00:44:50  错误: cj.studio.cde.tools.cat.CatConsole - 不认识的命令：lsparas
+2016年12月17日 23:46:17  错误: cj.studio.cde.tools.cat.CatConsole - Unrecognized option: -d
+2016年12月17日 23:46:23  错误: cj.studio.cde.tools.cat.CatConsole - 不认识的命令：site.tech
+2016年12月18日 01:02:44  错误: cj.studio.cde.tools.cat.CatConsole - 冲突！已存在一级分类：store
+2016年12月18日 01:43:38  错误: cj.studio.cde.tools.cat.CatConsole - duplicate key: shici
+2016年12月18日 01:44:14  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 53 column 7
+2016年12月18日 01:44:43  错误: cj.studio.cde.tools.cat.CatConsole - java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER
+2016年12月18日 01:47:07  错误: cj.studio.cde.tools.cat.CatConsole - java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER
+2016年12月18日 01:53:48  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 158 column 9
+2016年12月18日 01:54:09  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 191 column 9
+2016年12月18日 01:58:42  错误: cj.studio.cde.tools.cat.CatConsole - 冲突！已存在一级分类：yuanchuang

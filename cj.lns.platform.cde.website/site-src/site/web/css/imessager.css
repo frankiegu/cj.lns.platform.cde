@@ -1,0 +1,322 @@
+.user-table{
+}
+.center{
+	padding-bottom: 0;
+}
+.imessager {
+}
+
+.imessager>.imessager-box {
+	float: left;
+	width: 100%;
+	min-height: 100px;
+}
+.imessager>.imessager-box>.imessager-panel {
+	margin-left: 380px; /*与col-sub产生10像素距离*/
+	min-height: 100px;
+	min-width: 300px;
+}
+
+.imessager>.imessager-left {
+	float: left;
+	width: 380;
+	min-height: 200px;
+	/* background: #e7e9ec; */
+	margin-left: -100%;
+	/* border-right: 1px solid #e7e9ec; */
+}
+.user-info.small {
+    width: 353px;
+}
+.user-info {
+    clear: both;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.user-info .opera{
+	text-align: right;
+}
+.user-info .opera .timestamp{
+	color: #919191;
+}
+.user-info .opera .actions{
+	margin: 0;
+	padding-top: 4px;
+}
+.user-info .opera .actions .tips{
+	border: 1px solid #fff;
+	 -moz-border-radius: 50%;      /* Gecko browsers */
+    -webkit-border-radius: 50%;   /* Webkit browsers */
+    border-radius:50%; 
+    height: 22px;
+    padding: 0 4px;
+    background: red;
+    color: #fff;
+    font-weight: bold;
+}
+.user-info .opera .delete{
+	border: 1px solid #fff;
+	 -moz-border-radius: 50%;      /* Gecko browsers */
+    -webkit-border-radius: 50%;   /* Webkit browsers */
+    border-radius:50%; 
+    height: 22px;
+    padding: 0 4px;
+    color: #fff;
+    cursor: pointer;
+}
+.user-info .opera .delete:hover{
+	background-color: #00a0dc;
+}
+
+.user-info .user-image {
+    float: left;
+    padding-right: 4px;
+}
+.user-info .user-image a{
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	position: relative;
+	flex: 0 0 50px;
+}
+.user-info .user-image a.group-size-1 .img-0{
+	width:100%;
+	height: 100%;
+}
+.user-info .user-image a.group-size-2 .img-0{
+	width:25px;
+	height: 25px;
+	top:1px;
+	left:0;
+	position: absolute;
+}
+.user-info .user-image a.group-size-2 .img-1{
+	width:25px;
+	height: 25px;
+	bottom:1px;
+	right:0;
+	position: absolute;
+}
+.user-info .user-image a.group-size-3 .img-0{
+	width:25px;
+	height: 25px;
+	top: 1px;
+	left: 12px;
+	position: absolute;
+}
+.user-info .user-image a.group-size-3 .img-1{
+	width:25px;
+	height: 25px;
+	bottom: 1px;
+	left: 0;
+	position: absolute;
+}
+.user-info .user-image a.group-size-3 .img-2{
+	width:25px;
+	height: 25px;
+	bottom: 1px;
+	right: 0;
+	position: absolute;
+}
+.user-info .user-image a.group-size-4 .img-0{
+	width:25px;
+	height: 25px;
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+.user-info .user-image a.group-size-4 .img-1{
+	width:25px;
+	height: 25px;
+	top: 0;
+	right: 0;
+	position: absolute;
+}
+.user-info .user-image a.group-size-4 .img-2{
+	width:25px;
+	height: 25px;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+}
+.user-info .user-image a.group-size-4 .img-3{
+	width:25px;
+	height: 25px;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+}
+.user-info .user-image i.avatar{
+    display: block;
+    color: gray;
+    text-align: center;
+    font-size: 40px;
+     border-radius: 50%;
+     border:1px solid white;
+     padding: 0 6px;
+}
+.user-info .user-image .user-group{
+	text-align: center;
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+.user-info .user-image .user-group span[label]{
+	color: #919191;
+}
+.user-info .user-image .user-group span[count]{
+	color: #333;
+}
+img.avatar {
+    border-radius: 50%;
+}
+.user-info .user-detail {
+    float: left;
+    font-size: 13px;
+    padding-left: 5px;
+    width: 70%;
+}
+.user-info .user-detail .name-line {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.imessager-li .user-info .user-detail .title {
+    color: #919191;
+    margin-top: 3px;
+    max-height: 35px;
+    text-overflow:ellipsis;
+    overflow: hidden;
+}
+.user-info .user-detail .name-line {
+    white-space: nowrap;
+}
+.user-info .user-detail .name{
+	vertical-align: middle;
+	padding-right: 4px;
+	display: inline-block;
+}
+.user-info .user-detail .username{
+	vertical-align: middle;
+}
+.user-info .user-detail .username a {
+    color: #646464;
+    font-weight: bold;
+}
+.user-info .user-detail .relationship{
+	width:15px;
+	height: 15px;
+	vertical-align: middle;
+}
+.imessager>.imessager-left .imessager-ul .imessager-li{
+	padding: 10px 0 10px 10px;
+	cursor: pointer;
+}
+.imessager>.imessager-left .imessager-ul .imessager-li:hover{
+	background-color: #e7e9ec;
+}
+.imessager .inbox-body{
+	position: relative;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.2);
+   /*  background-color: #F6F8FA; */
+    -webkit-flex: 1 1 50%;
+    -ms-flex: 1 1 50%;
+    flex: 1 1 50%;
+    z-index: 2;
+    min-height: 200px;
+    height: 100%;
+    padding: 15px;
+}
+.imessager .inbox-body .inbox-wrap{
+	min-height: 200px;
+	border:1px solid #34b3e4;
+}
+.imessager .inbox-body .inbox-wrap .inbox-header{
+	
+}
+.imessager .inbox-body .inbox-wrap .compose-box{
+	border-top: 1px solid #34b3e4;
+}
+.imessager .inbox-body .inbox-wrap .compose-box >.typed{
+	width:100%;
+	height: 150px;
+	resize: none;
+	border: none;
+	padding: 15px;
+	font-size: 14px;
+}
+.imessager .inbox-body .inbox-wrap .compose-box .compose-action-bar{
+	text-align: right;
+	margin-bottom: 10px;
+}
+.imessager .inbox-body .inbox-wrap .compose-box .compose-action-bar .send-bar{
+	padding-right: 80px;
+	position: relative;
+}
+.imessager .inbox-body .inbox-wrap .compose-box .compose-action-bar .message-submit{
+	display: none;
+	position: absolute;
+	right:10px;
+	top:0;
+}
+.imessager .inbox-body .inbox-wrap .inbox-header .pillbox-list{
+	margin: 10px 10px;
+}
+.imessager .inbox-body .inbox-wrap .inbox-header .pillbox-list .pill{
+	padding: 4px 10px;
+	margin-top:2px;
+	margin-bottom:2px;
+	display: inline-block;
+	cursor: pointer;
+	background: #f1f3f5;
+	 -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:15px; 
+    color: #333;
+}
+.imessager .inbox-body .inbox-wrap .inbox-header .pillbox-list .pill span.remove-pill{
+	padding: 0 4px;
+	display:inline-block;
+	background: gray;
+	margin-left: 3px;
+	color: white;
+}
+.imessager .inbox-body .inbox-wrap .inbox-header .pillbox-list .pill span.remove-pill:hover{
+	color: red;
+	background: yellow;
+}
+.imessager .inbox-body .inbox-wrap .inbox-header .pillbox-list .pill:hover{
+	background: #00a0dc;
+	color: white;
+}
+.imessager > .imessager-left .imessager-ul .imessager-li.thread-selected{
+	background: #f5f5f5;
+}
+.imessager .inbox-body .inbox-wrap .inbox-header .twitter-typeahead{
+	padding: 0 10px 10px 10px;
+}
+.imessager .inbox-body .inbox-wrap .inbox-header .twitter-typeahead .names{
+	background: white;
+}
+.imessager .inbox-body .inbox-wrap .inbox-header .twitter-typeahead .u-names .pill{
+	float: left;
+	margin: 2px 5px;
+	padding:2px 5px;
+	color: #666;
+	cursor: pointer;
+	background: #f5f5f5;
+}
+.imessager .inbox-body .inbox-wrap .inbox-header .pillbox-list .pill .pill-nick,
+.imessager .inbox-body .inbox-wrap .inbox-header .twitter-typeahead .u-names .pill .pill-nick{
+	padding-left: 3px;
+}
+.imessager .inbox-body .inbox-wrap .inbox-header .twitter-typeahead .u-names .pill:hover{
+	background: #555;
+	color: white;
+}
+.imessager .inbox-body .inbox-wrap .inbox-header .twitter-typeahead input{
+	padding: 5px;
+	height: 40px;
+	width:100%;
+	font-size: 14px;
+	border: none;
+}

@@ -1,0 +1,807 @@
+body {
+	/* #faf4ed */
+	background-color: #e7e9ec;
+}
+
+.user-main .about.collapsed-info .details {
+	background: none;
+}
+
+.dynamic {
+	
+}
+
+.dynamic>.dynamic-wrap {
+	
+}
+
+.dynamic>.dynamic-wrap .tool-bar {
+	background: #f1f3f5;
+	padding-bottom: 10px;
+}
+
+.dynamic>.dynamic-wrap .tool-tabs {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+}
+
+.dynamic>.dynamic-wrap .tool-tab:hover, .dynamic>.dynamic-wrap .tool-tab.tab-selected
+	{
+	background: #f1f3f5;
+	border-bottom: none;
+}
+
+.dynamic>.dynamic-wrap .tool-tab {
+	display: table-cell;
+	background-color: #dfe1e3;
+	text-align: center;
+	line-height: 50px;
+	border-right: 1px solid #d5d7d9;
+	border-bottom: 1px solid #d5d7d9;
+	cursor: pointer;
+	color: #666;
+}
+
+.dynamic>.dynamic-wrap .tool-tab i {
+	color: #2392c9;
+}
+
+.dynamic>.dynamic-wrap .tool-tab .share {
+	border: none;
+	background: none;
+	cursor: pointer;
+	font-size: 14px;
+	color: #666;
+}
+
+.dynamic>.dynamic-wrap .tool-tab a, .dynamic>.dynamic-wrap .tool-tab label
+	{
+	cursor: pointer;
+	padding-left: 10px;
+}
+
+.dynamic>.dynamic-wrap .tool-tab:last-child {
+	border-right: none;
+}
+
+.dynamic>.dynamic-wrap .tool-bar .tool-panel {
+	padding: 10px;
+	position: relative;
+	/* display: none; */
+}
+
+.dynamic>.dynamic-wrap .tool-bar .tool-panel textarea {
+	height: 60px;
+	width: 100%;
+	font-size: 12px;
+	padding: 10px 50px 10px 10px;
+	resize: none;
+	border: 1px solid #ececec;
+	-webkit-box-shadow: inset 0 0 6px #ececec;
+	-moz-box-shadow: inset 0 0 6px #ececec;
+	box-shadow: inset 0 0 6px #ececec;
+	-moz-border-radius: 5px; /* Gecko browsers */
+	-webkit-border-radius: 5px; /* Webkit browsers */
+	border-radius: 5px;
+	line-height: 18px;
+}
+
+.dynamic>.dynamic-wrap .tool-bar .tool-panel .upload-pic {
+	position: absolute;
+	right: 15px;
+	top: 20px;
+	display: inline-block;
+	padding: 4px 10px;
+	cursor: pointer;
+}
+
+.dynamic>.dynamic-wrap .tool-bar .tool-panel .upload-pic i {
+	font-size: 25px;
+	color: #888;
+}
+
+.dynamic>.dynamic-wrap .tool-bar .tool-panel .upload-pic i:hover {
+	font-size: 25px;
+	color: #2392c9;
+}
+
+.dynamic>.dynamic-wrap .tool-bar .tool-pic-box {
+	margin: 0 10px 0 10px;
+	background: white;
+	position: relative;
+	height: 150px;
+	display: none;
+}
+
+.dynamic>.dynamic-wrap .tool-bar .tool-pic-box .tool-pic {
+	height: 100%;
+	float: left;
+}
+
+.dynamic>.dynamic-wrap .tool-bar .tool-pic-box .tool-pic img {
+	height: 100%;
+}
+
+.dynamic>.dynamic-wrap .tool-bar .tool-pic-box .tool-filename {
+	height: 100%;
+	float: left;
+	margin-left: 15px;
+}
+
+.dynamic>.dynamic-wrap .tool-bar .tool-pic-box .tool-pic-del {
+	display: inline-block;
+	right: 10px;
+	top: 10px;
+	padding: 5px 10px;
+	position: absolute;
+	cursor: pointer;
+}
+
+.dynamic>.dynamic-wrap .tool-bar .tool-pic {
+	position: relative;
+}
+
+.dynamic>.dynamic-wrap .tool-bar .tool-pic .tool-pic-loading {
+	display: inline-block;
+	left: 10px;
+	top: 10px;
+	padding: 5px 10px;
+	position: absolute;
+	text-shadow: #996600 5px 5px 10px;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info {
+	margin: 15px 0;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li {
+	padding: 10px 10px 10px 90px;
+	position: relative;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li .info-face
+	{
+	position: absolute;
+	left: 0;
+	top: 10px;
+	width: 80px;
+	text-align: center;
+	color: #888;
+	border: 3px solid #fff;
+	background: white;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li .info-face img
+	{
+	width: 100%;
+	border: 1px solid #fff;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body
+	{
+	background-color: white;
+	padding: 10px 15px;
+	min-width: 500px;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body>.header
+	{
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ececec;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body .headline
+	{
+	font-size: 13px;
+	line-height: 17px;
+	color: #333;
+	font-weight: normal;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body .headline .nick{
+	color: gray;
+	font-weight:bold;
+	padding-left: 8px;
+}
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body .headline.single-line .name,
+	.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body .headline.single-line .pulse
+	{
+	display: inline-block;
+	max-width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body .name,
+	.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body .headline .pulse
+	{
+	font-size: 13px;
+	line-height: 17px;
+	color: #006fa6;
+	font-weight: bold;
+	text-decoration: none;
+	color: #008cc9;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body .headline .name,
+	.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body .headline .pulse
+	{
+	vertical-align: bottom;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body .headline .title-container
+	{
+	height: 17px;
+	width: 95%;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body  .headline .title
+	{
+	font-size: 13px;
+	line-height: 17px;
+	color: #66696a;
+	text-decoration: none;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body  .headline .title
+	{
+	display: inline-block;
+	max-width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body .meta
+	{
+	float: right;
+	line-height: 17px;
+	height: 17px;
+	padding-left: 5px;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body .meta a
+	{
+	color: #777;
+	line-height: 30px;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body .meta i
+	{
+	padding-right: 3px;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body .meta span
+	{
+	padding-left: 3px;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body>.text-entity
+	{
+	font-size: 13px;
+	line-height: 24px;
+	color: #333;
+	font-weight: normal;
+	overflow: hidden;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body>.text-entity>p
+	{
+	display: inline;
+	word-wrap: break-word;
+	white-space: pre-line;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body>.shared-image
+	{
+	position: relative;
+	margin-top:10px;
+	margin-bottom:10px;
+	max-height: 400px;
+	text-align: center;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body>.shared-image .expanding-image
+	{
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	max-width: 100%;
+	height: 100%;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body>.shared-image img
+	{
+	display: block;
+	max-height: 400px;
+	max-width: 100%;
+	margin:0 auto;
+	height: auto;
+	width: auto;
+}
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body>.actions {
+    display: inline-block;
+    z-index: 1;
+}
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body>.actions>li {
+    display: inline-block;
+}
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body>.actions button {
+    background: none;
+    border: none;
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+    cursor: pointer;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body>.actions a, .dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body>.actions button {
+    font-size: 13px;
+    line-height: 17px;
+    color: #006fa6;
+    font-weight: normal;
+    text-decoration: none;
+    color: #008cc9;
+}
+.os-mac body, .os-mac button, .os-mac input, .os-mac textarea {
+    font-family: Helvetica,Arial,sans-serif;
+}
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body>.actions button .accessibility-text {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body>.social-summary {
+    display: inline-block;
+    margin-bottom: 10px;
+    height: 17px;
+}
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body>.social-summary.likes .count, .dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body>.social-summary.comments .count {
+    font-size: 13px;
+    line-height: 17px;
+    color: #66696a;
+    text-decoration: none;
+}
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body>.social-summary.likes .count, .dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body>.social-summary.comments .count {
+    background: none;
+    border: none;
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+    cursor: pointer;
+}
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body>.social-summary .social-screenreader-text {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body .comment-list.allow-overflow {
+    overflow: visible;
+}
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body .comment-list {
+    background-color: #f1f3f5;
+    padding-top: 15px;
+    padding-bottom:5px;
+    overflow: hidden;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.dynamic>.dynamic-wrap>.dynamic-info>.dynamic-info-ul>.dynamic-info-li>.info-body .comment-box {
+    background-color: #f1f3f5;
+    padding-top: 10px;
+    overflow: hidden;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: -10px;
+}
+.feed-update .comment-list.allow-overflow ol {
+    overflow-y: visible;
+    padding-left:15px;
+    max-height: none;
+}
+
+.feed-update .comment-list ol {
+    overflow-y: auto;
+    max-height: 400px;
+}
+ol, ul {
+    list-style: none;
+}
+.feed-update .comment-entity:first-child {
+    margin-top: 0;
+}
+.feed-update .comment-entity.allow-overflow {
+    overflow: visible;
+}
+.feed-update .comment-entity {
+    overflow: hidden;
+    position: relative;
+    margin: 12px 15px 0;
+    min-height: 30px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+}
+.feed-update .comment-entity .content {
+    margin-left: 40px;
+}
+.feed-update .comment-box[data-type="reply"] {
+    display: none;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+.feed-update .comment-box {
+    background-color: #f1f3f5;
+    padding: 15px;
+    padding-top: 12px;
+    position: relative;
+}
+.feed-update .image.xsmall-actor-image {
+    width: 30px;
+    height: 30px;
+}
+.feed-update .image {
+    position: absolute;
+    left: 0;
+    margin: 0;
+}
+.feed-update .comment-entity .header {
+    display: inline;
+    margin: 0 5px 0 0;
+}
+.feed-update .aggregated-share .header, .feed-update .comment-entity .header {
+    padding: 0;
+    margin: 0;
+}
+.feed-update .header {
+    margin-bottom: 11px;
+    min-height: 17px;
+}
+.comment-entity .text-entity {
+    display: inline;
+    margin: 0;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333;
+    font-weight: normal;
+}
+.feed-update .image.xsmall-actor-image img {
+    width: 30px;
+    height: 30px;
+}
+.feed-update .comment-control-actions {
+    position: absolute;
+    left: -9999px;
+    top: -10px;
+    z-index: 999;
+}
+.feed-update .comment-control-actions .dropdown {
+    position: relative;
+    border: 1px solid transparent;
+    height: 23px;
+    width: 23px;
+    line-height: 100%;
+    cursor: pointer;
+}
+.feed-update .comment-control-actions .comments-trigger {
+    position: absolute;
+    background-color: #fff;
+    z-index: 25;
+    height: 100%;
+    width: 100%;
+    line-height: 100%;
+    padding: 2.5px;
+    top: 5px;
+    background-color: #f1f3f5;
+}
+.feed-update .comment-control-actions button {
+    background: none;
+    border: none;
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+    cursor: pointer;
+}
+.feed-update .comment-control-actions .comments-trigger span {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+.feed-update .comment-control-actions .options {
+    padding: 5px 0;
+    display: none;
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+    cursor: default;
+    float: left;
+    list-style: none;
+    margin: 0;
+    z-index: 25;
+    border: 1px solid #eee;
+    right: -1px;
+    cursor: pointer;
+}
+.feed-update .comment-control-actions .options li {
+    text-align: left;
+    line-height: 1;
+}
+.feed-update .comment-control-actions .comment-control-action {
+    font-size: 12px;
+    line-height: 14px;
+    color: #333;
+    font-weight: normal;
+    padding: 5px 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    max-width: 250px;
+}
+
+.feed-update .comment-control-actions button {
+    background: none;
+    border: none;
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+    cursor: pointer;
+}
+.feed-update .comment-entity .meta>span, .feed-update .aggregated-share .meta>span {
+    font-size: 12px;
+    line-height: 14px;
+    color: #66696a;
+    vertical-align: bottom;
+}
+.feed-update .comment-entity .sub-headline .name {
+    font-size: 12px;
+    line-height: 14px;
+    color: #006fa6;
+    font-weight: normal;
+    text-decoration: none;
+    color: #008cc9;
+}
+.feed-update .comment-entity .sub-headline {
+    display: inline;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    line-height: 14px;
+}
+.feed-update .sub-headline {
+    margin: 0 30px 0 15px;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 17px;
+    color: #434649;
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.feed-update .text-entity>p {
+    display: inline;
+    word-wrap: break-word;
+    white-space: pre-line;
+}
+.feed-update .comment-social-actions .actions {
+    margin: 6px 0 0 0;
+    height: 17px;
+}
+.feed-update .actions {
+    display: inline-block;
+    z-index: 1;
+}
+.feed-update .actions li {
+    display: inline-block;
+}
+.feed-update .comment-social-actions .actions a, .feed-update .comment-social-actions .actions button {
+    font-size: 12px;
+    line-height: 14px;
+    color: #006fa6;
+    font-weight: normal;
+    text-decoration: none;
+    color: #008cc9;
+}
+.feed-update .actions button {
+    background: none;
+    border: none;
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+    cursor: pointer;
+}
+.feed-update .actions button .accessibility-text {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+.mentions-container {
+    box-sizing: border-box;
+    position: relative;
+}
+.comment-box textarea {
+    background: #fdfdfd;
+    vertical-align: middle;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    padding: 5px 6px 4px;
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.1) inset;
+    -moz-box-shadow: 0 0 3px rgba(0,0,0,0.1) inset;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1) inset;
+    border: 1px solid #c1c1c1;
+    font-size: 13px;
+    color: #333;
+    line-height: 17px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30px;
+    max-height: 147px;
+    width: 100%;
+    max-width: 100%;
+    resize: none;
+    position: relative;
+    overflow: auto;
+    border-radius: 0;
+    display: none;
+}
+.dynamic .comment-list .comment-thread{
+	position: relative;
+	padding-left: 50px;
+	margin-bottom: 15px;
+}
+.dynamic .comment-list .comment-thread:last-child{
+	margin-bottom: 0;
+}
+.dynamic .comment-list .comment-thread .user-face{
+	position: absolute;
+	left:0;
+	top:0;
+	width:40px;
+}
+.dynamic .comment-list .comment-thread .user-face img{
+	width:100%;
+	 -moz-border-radius: 50%;      /* Gecko browsers */
+    -webkit-border-radius: 50%;   /* Webkit browsers */
+    border-radius:50%;            /* W3C syntax */
+    border:1px solid #fff;
+}
+.dynamic .comment-list .comment-thread .thread-body{
+	margin-bottom: 10px;
+}
+.dynamic .comment-list .comment-thread .thread-body .user-name{
+	padding-right: 5px;
+	color: #008cc9;
+	font-size: 12px;
+}
+.dynamic .comment-list .comment-thread .thread-body .timestamp{
+	padding-right: 5px;
+	color: #777;
+	font-size: 12px;
+}
+.dynamic .comment-list .comment-thread .thread-body .thread-cnt{
+	display: inline;
+}
+.dynamic .comment-list .comment-thread .thread-body .thread-cnt>p{
+	display: inline;
+	word-wrap: break-word;
+    white-space: pre-line;
+    font-size: 12px;
+}
+.dynamic .comment-list .comment-thread  .thread-actions{
+	margin: 5px 0;
+	min-height: 12px;
+}
+.dynamic .comment-list .comment-thread  .thread-actions button {
+    font-size: 12px;
+    line-height: 14px;
+    color: #006fa6;
+    font-weight: normal;
+    text-decoration: none;
+    color: #008cc9;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+.dynamic .comment-list .comment-thread  .thread-actions button i{
+	padding-right: 5px;
+}
+.dynamic .comment-list .comment-thread  .thread-actions button:first-child{
+	padding-left: 0;
+}
+.dynamic .comment-list .comment-thread  .thread-actions button .accessibility-text {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+.dynamic .comment-list .comment-thread .follow-ul .follow-li{
+	position: relative;
+	padding-left: 50px;
+	margin: 10px 0;
+}
+.dynamic .comment-list .comment-thread .follow-ul .follow-li:last-child{
+	margin-bottom: -5px;
+}
+.dynamic .comment-list .comment-thread .follow-ul .follow-li .follow-body span[label]{
+	color: #777;
+	font-size: 12px;
+}
+.dynamic .comment-list .comment-thread .follow-ul .follow-li .follow-body a.user-name{
+color: #008cc9;
+font-size: 12px;
+}
+.dynamic .comment-list .comment-thread .follow-ul .follow-li .follow-body .timestamp{
+	padding-right: 5px;
+	color: #777;
+	font-size: 12px;
+}
+.dynamic .comment-list .comment-thread .follow-ul .follow-li .follow-body .thread-cnt{
+	font-size: 12px;
+	display: inline;
+}
+.dynamic .comment-list .comment-thread .follow-ul .follow-li .follow-body .thread-cnt>p{
+	display: inline;
+}
+.dynamic .dynamic-tips{
+	margin-top: 10px;
+	display: none;
+}
+.dynamic .dynamic-tips >a{
+	display: block;
+	border-bottom:1px solid #008cc9;
+	color: #008cc9;
+	padding: 6px;
+	text-align: center;
+}
+.dynamic .dynamic-tips >a:hover{
+	color: red;
+	border-bottom:1px solid red;
+}
+.dynamic .dynamic-tips >a >.count{
+	padding-right: 10px;
+	display: inline-block;
+}

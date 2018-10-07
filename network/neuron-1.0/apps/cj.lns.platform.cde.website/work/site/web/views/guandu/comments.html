@@ -1,0 +1,109 @@
+<style>
+<!--
+.comments {
+	
+}
+
+.comments>.comments-count {
+	margin-bottom: 10px;
+	border-bottom: 1px solid red;
+}
+
+.comments>.comments-count>span {
+	
+}
+
+.comments>.comments-count>span[label] {
+	color: gray;
+}
+
+.comments>.comments-count>span[count] {
+	padding-right: 15px;
+}
+.comments>.comments-count>a[more] {
+	padding-left: 10px;
+}
+.comments>.comments-msg {
+	
+}
+
+.comments>.comments-msg>li {
+	padding: 5px 0;
+	padding-left: 5px;
+	cursor: pointer;
+}
+
+.comments>.comments-msg>li:hover {
+	background: #999;
+	color: white;
+}
+
+.comments>.comments-msg>li img {
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	-moz-border-radius: 50%; /* Gecko browsers */
+	-webkit-border-radius: 50%; /* Webkit browsers */
+	border-radius: 50%; /* W3C syntax */
+}
+
+.comments>.comments-msg>li a {
+	display: block;
+}
+
+.comments>.comments-msg>li a:hover {
+	color: white;
+}
+
+.comments>.comments-msg>li span {
+	vertical-align: middle;
+	padding: 0 5px;
+}
+.comments>.comments-msg>li span[vtime]{
+	font-size: 12px;
+	color: gray;
+}
+.comments>.comments-msg>li span[label]{
+	font-size: 12px;
+	color: gray;
+}
+
+.comments .op{
+	background: #ececec;
+	text-align: center;
+	margin-top: 10px;
+	border:1px solid #fff;
+	cursor: pointer;
+	line-height: 40px;
+}
+.comments .op:hover{
+	background: #999;
+	color: yellow;
+}
+-->
+</style>
+<script type="text/javascript">
+<!--
+$(document).ready(function(){
+	
+	$('.comments .op').on('click',function(e){
+		var docid=$('.topic-timeline').attr('docid');
+		var the=$(this);
+		
+		
+	});
+});
+//-->
+</script>
+<div class="comments">
+	<div class="comments-count">
+		<span label>共有：</span><span count>10人</span><span label>评论了</span><span
+			times>100条</span>
+	</div>
+	<ul class="comments-msg">
+		<li><a href="#" title=""><img
+				alt="" src="/img/1.png"><span name>Carocean</span><span times>10次</span><span label>次</span><span vtime>时间</span></a></li>
+		<li><a href="#" title=""><img
+				alt="" src="/img/1.png"><span name>Carocean</span><span times>10次</span></a></li>
+	</ul>
+</div>

@@ -1,0 +1,297 @@
+<style usercard>
+<!--
+#user-card.show-badges {
+	width: 580px;
+}
+
+#user-card.no-bg {
+	min-height: 160px;
+}
+
+#user-card.show {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+#user-card {
+	width: 500px;
+	box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.25);
+	margin-top: -2px;
+	color: #222;
+	background: #fff center center;
+	background-size: cover;
+	min-height: 175px;
+	-webkit-transition: opacity .2s, -webkit-transform .2s;
+	transition: opacity .2s, transform .2s;
+	opacity: 0;
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+card.no-bg .card-content {
+	margin-top: 0;
+}
+
+#user-card .card-content {
+	padding: 12px 12px 0 12px;
+	background: rgba(255, 255, 255, 0.85);
+	margin-top: 80px;
+}
+
+.user-card-avatar {
+	float: left;
+	margin-right: 10px;
+	margin-top: -53px;
+}
+
+#user-card .topic-avatar, .user-card-avatar {
+	position: relative;
+}
+
+#user-card .card-content a.card-huge-avatar {
+	outline: none;
+}
+
+img.avatar {
+	border-radius: 50%;
+}
+
+#user-card.show-badges .names {
+	float: left;
+	height: 60px;
+	position: relative;
+	width: 45%;
+}
+
+.names {
+	float: left;
+}
+
+#user-card.show-badges .names span {
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 250px;
+}
+
+.names span {
+	font-size: 0.929em;
+	padding-right: 8px;
+	display: inline-block;
+	max-width: 280px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#user-card h1 {
+	min-width: 120px;
+	font-size: 1.786em;
+	line-height: 1.25;
+	display: block;
+	max-width: 250px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#user-card h2 {
+	font-size: 1.071em;
+	line-height: 1.25;
+	font-weight: normal;
+	display: block;
+	max-width: 250px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#user-card h1 a {
+	color: #222;
+}
+
+.names span a {
+	color: #646464;
+}
+
+#user-card .usercard-controls {
+	list-style-type: none;
+	float: right;
+	margin: 0;
+}
+
+#user-card .usercard-controls {
+	list-style-type: none;
+	float: right;
+	margin: 0;
+}
+
+#user-card .usercard-controls a {
+	width: 100%;
+	min-width: 150px;
+}
+
+#user-card .btn {
+	margin: 0 0 7px 0;
+	box-sizing: border-box;
+}
+
+.btn-primary {
+	border: none;
+	font-weight: normal;
+	color: #fff;
+	background: #08c;
+}
+
+#user-card .metadata {
+	width: 100%;
+	clear: both;
+	padding-top: 5px;
+}
+
+#user-card.show-badges .badge-section {
+	float: left;
+	width: 500px;
+	padding-bottom: 10px;
+	margin-top: 5px;
+}
+
+#user-card .metadata h3 {
+	display: inline;
+	margin-right: 5px;
+}
+
+#user-card h3 {
+	font-size: 0.929em;
+	font-weight: normal;
+	margin-top: 0;
+	color: #4e4e4e;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#user-card .metadata h3 .desc, #user-card .metadata h3 a {
+	color: #6f6f6f;
+}
+
+span.relative-date {
+	white-space: nowrap;
+}
+
+#user-card.show-badges .badge-section .user-badge, #user-card.show-badges .badge-section .more-user-badges
+	{
+	background: #f2f2f2;
+	border: 1px solid #e9e9e9;
+	color: #222;
+}
+.user-badge, #user-card.show-badges .more-user-badges {
+    padding: 3px 8px;
+    color: #222;
+    border: 1px solid #e9e9e9;
+    line-height: 19px;
+    display: inline-block;
+    background-color: #fff;
+    margin: 0 0 3px;
+}
+-->
+</style>
+<script type="text/javascript">
+<!--
+	$('#cj-popup-hidden').undelegate('#user-card .usercard-controls a[data-ember-action=\"connect\"]','click');
+	$('#cj-popup-hidden').delegate('#user-card .usercard-controls a[data-ember-action=\"connect\"]','click',function(){
+		var the=$(this);
+		var type=the.attr('type');
+		var usercard=the.parents('#user-card');
+		var following=usercard.find('.names .username a').html();
+		if(type=='none'){
+			$.get('/views/guandu/connect-action.service',{following:following},function(data){
+				var obj=$.parseJSON(data);
+				if(obj.type=='followingOnly'){
+					$(the).html('已关注');
+				}else{
+					$(the).html('已互粉');
+				}
+				the.attr('type',obj.type);
+			}).error(function(e){
+				alert(e.responseText);
+			});
+		}else{
+			$.get('/views/guandu/unconnect-action.service',{following:following},function(data){
+				$(the).html('关注');
+				the.attr('type','none');
+			}).error(function(e){
+				alert(e.responseText);
+			});
+		}
+	});
+//-->
+</script>
+<div id="user-card" class="ember-view show-badges no-bg show">
+	<div class="card-content">
+
+		<div class="user-card-avatar">
+			<a class="card-huge-avatar" data-ember-action="2380"
+				href="/users/awful"><img alt="" width="120" height="120"
+				src="//reactchina.sxlcdn.com/letter_avatar_proxy/v2/letter/a/ec9cab/240.png"
+				class="avatar"></a>
+			<!---->
+		</div>
+
+		<div class="names">
+			<span>
+				<h1 class="username">
+					<a data-ember-action="2382" href="/users/awful">Awful <!----></a>
+				</h1>
+
+				<h2 class="full-name">Eric</h2> <!----> <!---->
+			</span>
+		</div>
+
+		<ul class="usercard-controls">
+			<li title="即：加为联系人"><a class="btn btn-primary" data-ember-action="connect"><i
+					class="fa fa-envelope"></i>关注</a></li>
+			<li><a class="btn btn-primary" data-ember-action="message"><i
+					class="fa fa-envelope"></i>私信</a></li>
+
+			<!---->
+			<!---->
+			<!---->
+		</ul>
+
+		<!---->
+
+		<!---->
+		<!---->
+		<div class="metadata">
+			<h3>
+				<span class="desc">主题</span> <span class="relative-date date"
+					title="发布的主题数" data-time="1477991344349"  docs
+					data-format="medium-with-ago">100</span>
+			</h3>
+			<h3>
+				<span class="desc">最后活动</span> <span class="relative-date date" lastvisitor
+					title="" data-time="1478447503472"
+					data-format="medium-with-ago">8小时前</span>
+			</h3>
+			
+			<!---->
+		</div>
+
+		<!---->
+		<div class="badge-section">
+			<span id="ember2387" class="ember-view followings"><a
+				href="/badges/1/-?username=awful"> <span id="ember2388"
+					class="ember-view user-badge badge-type-bronze"
+					data-badge-name="关注" title=""><i
+						class="fa fa-user"></i> <span class="badge-display-name">关注<span label>(10)</span></span>
+						<!----> </span></a> </span> <span id="ember2391" class="ember-view followers"><a
+				href="/badges/11/-?username=awful"> <span id="ember2392"
+					class="ember-view user-badge badge-type-bronze"
+					data-badge-name="粉丝" title="被连接：即谁连接了他／她"><i
+						class="fa fa-certificate"></i> <span class="badge-display-name">粉丝<span label>(8)</span></span>
+						<!----> </span></a> </span> 
+			<!---->
+		</div>
+	</div>
+</div>

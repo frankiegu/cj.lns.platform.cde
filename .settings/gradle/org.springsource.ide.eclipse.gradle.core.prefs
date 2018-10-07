@@ -1,0 +1,4 @@
+#org.springsource.ide.eclipse.gradle.core.preferences.GradleProjectPreferences
+#Sun Oct 07 10:13:05 CST 2018
+build.family.org.gradle.tooling.model.eclipse.HierarchicalEclipseProject=;cj.lns.platform.cde.embed;cj.lns.platform.cde.main;cj.lns.platform.cde.rssite;cj.lns.platform.cde.website;cj.studio.cde;cj.studio.cde.start;cj.studio.cde.tools;
+org.springsource.ide.eclipse.gradle.rootprojectloc=

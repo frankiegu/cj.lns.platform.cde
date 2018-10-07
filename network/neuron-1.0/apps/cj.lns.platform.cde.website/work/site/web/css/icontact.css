@@ -1,0 +1,185 @@
+.icontact {
+}
+
+.icontact>.icontact-box {
+	float: left;
+	width: 100%;
+	min-height: 100px;
+}
+.icontact>.icontact-box>.icontact-panel {
+	margin-left: 300px; /*与col-sub产生10像素距离*/
+	min-height: 100px;
+	min-width: 300px;
+}
+
+.icontact>.icontact-left {
+	float: left;
+	width: 290;
+	min-height: 200px;
+	/* background: #e7e9ec; */
+	margin-left: -100%;
+	border-right: 1px solid #e7e9ec;
+}
+.icontact>.icontact-left>.icontact-list>.icontact-user{
+	padding: 10px 0 10px 10px;
+	cursor: pointer;
+}
+.icontact>.icontact-left>.icontact-list>.icontact-user:hover{
+	/* border-bottom:1px solid #e7e9ec; */
+	background: #e7e9ec;
+}
+.user-info.small {
+    width: 333px;
+}
+.user-info {
+    clear: both;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.user-info .user-image {
+    float: left;
+    padding-right: 4px;
+}
+img.avatar {
+    border-radius: 50%;
+}
+.user-info .user-detail {
+    float: left;
+    font-size: 13px;
+    padding-left: 5px;
+    width: 70%;
+}
+.user-info .user-detail .name-line {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.user-info .user-detail .title {
+    color: #919191;
+    margin-top: 3px;
+}
+.user-info .user-detail .name-line {
+    white-space: nowrap;
+}
+.user-info .user-detail .name{
+	vertical-align: middle;
+	padding-right: 4px;
+	display: inline-block;
+}
+.user-info .user-detail .username{
+	vertical-align: middle;
+}
+.user-info .user-detail .username a {
+    color: #646464;
+    font-weight: bold;
+}
+.user-info .user-detail .relationship{
+	width:15px;
+	height: 15px;
+	vertical-align: middle;
+}
+.icontact > .icontact-box > .icontact-panel .icontact-face{
+	position: relative;
+	padding-top: 160px;
+}
+.icontact > .icontact-box > .icontact-panel .icontact-face .face-img{
+	position: absolute;
+	top:0;
+	left:50%;
+	width:140px;
+	height:140px;
+	margin-left: -70px;
+}
+.icontact > .icontact-box > .icontact-panel .icontact-face .face-img .img{
+	width:100%;
+	height: 100%;
+	-moz-border-radius: 50%;      /* Gecko browsers */
+    -webkit-border-radius: 50%;   /* Webkit browsers */
+    border-radius:50%;    
+}
+.icontact > .icontact-box > .icontact-panel .icontact-face .face-img .relationship{
+	height: 25px;
+	position: absolute;
+	bottom:0;
+	left:125px;
+	white-space: nowrap;
+}
+.icontact > .icontact-box > .icontact-panel .icontact-face .face-img .relationship img{
+	width:25px;
+	height: 25px;
+	cursor: pointer;
+}
+.icontact > .icontact-box > .icontact-panel .icontact-face .face-img .send-message{
+	position: absolute;
+	bottom:0;
+	right:-95px;
+	cursor: pointer;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	-moz-border-radius: 4px;      /* Gecko browsers */
+    -webkit-border-radius: 4px;   /* Webkit browsers */
+    border-radius:4px; 
+}
+.icontact > .icontact-box > .icontact-panel .icontact-face .face-img .send-message:hover{
+	background-color: #999;
+	color: white;
+}
+.icontact > .icontact-box > .icontact-panel .icontact-face .face-img .sex{
+	position: absolute;
+	bottom:0;
+	left:-5px;
+	height:20px;
+	line-height:22px;
+	padding:0 3px;
+	-moz-border-radius: 50%;      /* Gecko browsers */
+    -webkit-border-radius: 50%;   /* Webkit browsers */
+    border-radius:50%;  
+    display: inline-block;
+    border:1px solid gray;
+}
+.icontact > .icontact-box > .icontact-panel .icontact-face .face-names{
+	text-align: center;
+}
+.icontact > .icontact-box > .icontact-panel .icontact-face .face-names span{
+	padding: 0 3px;
+}
+.icontact > .icontact-box > .icontact-panel .icontact-face .face-names span[username]{
+	 color: #646464;
+    font-weight: bold;
+}
+.icontact > .icontact-box > .icontact-panel .icontact-face .face-names .face-sign{
+	text-align: center;
+	color: #919191;
+}
+.icontact > .icontact-box > .icontact-panel .icontact-total{
+	text-align: center;
+	margin-top: 40px;
+}
+.icontact > .icontact-box > .icontact-panel .icontact-total .his-activities{
+	    margin: 0 auto;
+    text-align: center;
+    width: 440px;
+}
+.icontact > .icontact-box > .icontact-panel .icontact-total .his-activities li{
+	display: inline-block;
+	padding: 5px 16px;
+}
+.icontact > .icontact-box > .icontact-panel .icontact-total .his-activities li span[header]{
+	color: #222;
+    direction: ltr;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: bold;
+}
+.icontact > .icontact-box > .icontact-panel .icontact-brief{
+	width:380px;
+	margin: 0 auto;
+	padding-top:20px;
+	text-indent: 2em;
+	line-height: 30px;
+	border-top:1px dotted #ececec;
+	 font-family: Helvetica,"Hiragino Sans GB","Microsoft Yahei","微软雅黑",Arial,sans-serif;
+    overflow-wrap: break-word;
+}

@@ -1,0 +1,222 @@
+<script type="text/javascript" src="/js/jquery/ajaxfileupload.js"></script>
+<script type="text/javascript" src="/js/header.js"></script>
+<link href="/font/font-awesome-4.7.0/css/font-awesome.min.css"
+	rel="stylesheet">
+<div class="header-box">
+	<div class="wrap">
+		<div class="contents clearfix">
+			<div class="title">
+				<a href="/" data-auto-route="true"><img src="/img/logo.png"
+					alt="相关度" id="site-logo" class="logo-big"></a>
+			</div>
+			<div class="panel clearfix">
+				<span class="op"><button
+						class="widget-button register-button" aria-label="注册" title="注册">注册</button>
+					<button class="widget-button login-button" aria-label="登录"
+						title="登录">
+						<img src="/img/user.svg">登录
+					</button></span>
+				<ul class="icons">
+					<li class="header-dropdown-toggle" style="display: none;"><a
+						href="#" title="搜索主题、帖子、用户或分类" aria-label="搜索主题、帖子、用户或分类"
+						id="search-button" class="icon"><img src="/img/search.svg"></a>
+						<div class="popup-panel searcher-header">
+							<input class="searcher" placeholder="搜索主题、动态、帖子、用户或分类,按回车键上屏">
+						</div></li>
+					<li class="header-dropdown-toggle" style="display: none;"><a title="平台"
+						id="toggle-hamburger-platform-cat" class="icon"><img
+							src="/img/platform-cat.svg"></a>
+						<div class="popup-panel platform-header">
+							<div class="header-title clearfix">
+								<span class="label">平台公告</span> <span style="display: none;"
+									class="unread-count" title="平台未读主题数">10</span>
+								<div class="header-bar">
+									<a href="/post/notice.html" class="write-article write-notice"><i
+										class="fa fa-pencil-square-o" style="padding-right: 4px;"
+										aria-hidden="true"></i>写公告</a> <a href="/post/editor.html"
+										class="write-article"><i class="fa fa-plus"></i>写文章</a>
+								</div>
+							</div>
+							<ul class="platform-ul">
+								<li class="platform-li clearfix"><img src="/img/1.png">
+									<div class="platform-tips clearfix">
+										<span class="user-name" href="#">Carocean</span>
+										<div class="platform-cnt">
+											<p>大促销喽</p>
+										</div>
+										<span class="timestamp">9:28</span>
+										<div class="platform-actions" style="display: none;">
+											<button class="platform-cat">
+												<span aria-hidden="true">连衣裙</span><span
+													class="accessibility-text">Reply to ’s comment</span>
+											</button>
+										</div>
+									</div></li>
+								<li class="platform-li clearfix"><img src="/img/1.png">
+									<div class="platform-tips clearfix">
+										<span class="user-name" href="#">Carocean</span>
+										<div class="platform-cnt">
+											<p>便宜了，打2折</p>
+										</div>
+										<span class="timestamp">9:28</span>
+										<div class="platform-actions" style="display: none;">
+											<button class="platform-cat">
+												<span aria-hidden="true">短裤</span><span
+													class="accessibility-text">Reply to ’s comment</span>
+											</button>
+										</div>
+									</div></li>
+							</ul>
+						</div></li>
+					<li class="spliter" style="display: none;"></li>
+					<li class="header-dropdown-toggle tips-imessager" it='me'><a
+						title="消息" href="#" aria-label="消息" id="toggle-hamburger-messages"
+						class="icon"><span class="tips" style="display: none;">0</span><img
+							src="/img/chat.svg"></a>
+						<div class="popup-panel message-header">
+							<div class="header-title clearfix">
+								<span class="label">未读</span><span class="unread-count"
+									title="未读消息数">10</span>
+								<div class="header-bar">
+									<a href="#" class="write-message"><i
+										style="padding-right: 4px;" class="fa fa-envelope-open"
+										aria-hidden="true"></i>写消息</a>
+								</div>
+							</div>
+							<ul class="message-ul">
+								<li class="message-li clearfix"><img src="/img/1.png">
+									<div class="message-tips clearfix">
+										<span class="user-name" href="#">Carocean</span>
+										<div class="message-cnt">
+											<p>期间救援队</p>
+										</div>
+										<span class="timestamp">9:28</span>
+										<div class="message-actions">
+											<button class="flag-read">
+												<span aria-hidden="true">标记已读</span><span
+													class="accessibility-text">Reply to ’s comment</span>
+											</button>
+										</div>
+									</div></li>
+								<li class="message-li clearfix"><img src="/img/1.png">
+									<div class="message-tips clearfix">
+										<span class="user-name" href="#">Carocean</span>
+										<div class="message-cnt">
+											<p>期间救援队伍曾多次更改救援方案...</p>
+										</div>
+										<span class="timestamp">9:28</span>
+										<div class="message-actions">
+											<button class="flag-read">
+												<span aria-hidden="true">标记已读</span><span
+													class="accessibility-text">Reply to ’s comment</span>
+											</button>
+										</div>
+									</div></li>
+							</ul>
+						</div></li>
+					<li class="header-dropdown-toggle tips-notify" it='me'><a
+						title="通知" href="#" aria-label="通知" id="toggle-hamburger-notify"
+						class="icon"><span class="tips" style="display: none;">0</span><img
+							src="/img/flag.svg"></a>
+						<div class="notify-header popup-panel">
+							<div class="header-title">
+								<span>通知</span>
+							</div>
+							<ul class="notify-ul">
+								<li class="notify-li activites clearfix">
+									<div class="notify-info">他们更新了动态</div>
+									<div class="tips" style="display: none;">
+										<span class="timestamp">9:30</span>
+									</div>
+									<ul class="notify-users">
+										<li class="notify-user"><img src="/img/1.png">
+											<p class="name">cj</p></li>
+										<li class="notify-user"><img src="/img/1.png">
+											<p class="name">cj</p></li>
+									</ul>
+
+								</li>
+								<li class="notify-li likes clearfix" style="display: none;">
+									<div class="notify-info">他们赞了你</div>
+									<div class="tips">
+										<span class="timestamp">9:30</span>
+									</div>
+									<ul class="notify-users">
+										<li class="notify-user"><img src="/img/1.png">
+											<p class="name">cj</p></li>
+										<li class="notify-user"><img src="/img/1.png">
+											<p class="name">cj</p></li>
+									</ul>
+
+								</li>
+
+							</ul>
+						</div></li>
+					<li class="header-dropdown-toggle contact-panel" it='me'><a
+						title="联系人" href="/users/" aria-label="联系人"
+						id="toggle-hamburger-contacts" class="icon"><img
+							src="/img/user-plus.svg"></a>
+						<div class="popup-panel">
+							<div class="members">
+								<a href="/users/"><img src="/img/users.svg">
+									<p>会员中心</p></a>
+							</div>
+							<div class="c-spliter">People For You</div>
+							<ul class="tuijiang">
+								<li class="member"><img src="/img/1.png">
+									<ul>
+										<li name>会员1</li>
+										<li sign>个人签名</li>
+									</ul> <a href="#" title="连接" class="connect"><img
+										src="/img/user-plus.svg"></a></li>
+								<li class="member"><img src="/img/1.png">
+									<ul>
+										<li>会员2</li>
+										<li>个人签名</li>
+									</ul> <a href="#" title="连接" class="connect"><img
+										src="/img/user-plus.svg"></a></li>
+							</ul>
+						</div></li>
+					<li class="header-dropdown-toggle" it='me'><a title="关于我"
+						href="#" aria-label="关于我" id="toggle-hamburger-me" class="icon"><img
+							src="/img/user-default.svg"></a>
+						<div class="popup-panel">
+							<div class="header-me-top clearfix">
+								<div class="header-me-top-left" myhome>
+									<a id="myhome" title="我的主页" href="#"><img
+										src="/img/my-home.svg"><span>我的主页</span> </a>
+								</div>
+								<div class="header-me-top-right" logout>
+									<a id="logout" href="/public/logout.service">退出</a>
+								</div>
+							</div>
+							<ul class="header-me-apps">
+								<li class="header-me-app" settings><a id="settings"
+									title="个人设置" href="#"><img src="/img/settings.svg"> <span>个人设置</span>
+								</a></li>
+							</ul>
+						</div></li>
+				</ul>
+				<div class="login-panel">
+					<ul>
+						<li user><input placeholder="用户名/视窗号"></li>
+						<li pwd><input type="password" placeholder="输入密码后直接回车即可"></li>
+					</ul>
+				</div>
+			</div>
+			<div class="extra-info-wrapper">
+				<div class="channels clearfix">
+					<ul>
+						<li><a href="/users/cj/">官方</a></li>
+						<li><a href="http://www.cjlns.com/?swsid=6476426526"
+							target="_blank">动客</a></li>
+						<li><a href="http://www.cjlns.com/?swsid=6966182503"
+							target="_blank">开发</a></li>
+						<li><a href="http://www.cjlns.com/?swsid=6386836529"
+							target="_blank">云计算</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

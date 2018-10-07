@@ -1,0 +1,3 @@
+include "cj.lns.platform.cde.main","cj.lns.platform.cde.website"
+include "cj.studio.cde","cj.studio.cde.start","cj.studio.cde.tools"
+include "cj.lns.platform.cde.embed","cj.lns.platform.cde.rssite"

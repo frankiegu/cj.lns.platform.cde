@@ -1,0 +1,140 @@
+<style>
+<!--
+.relate{
+	padding: 20px 30px;
+	width:400px;
+}
+.relate .inputs{
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+.relate .inputs input{
+	width:100%;
+	padding: 4px;
+}
+.relate .inputs .surports{
+	color: gray;
+	margin-top: 4px;
+}
+.relate .header{
+margin-bottom: 20px;
+}
+.relate .header .title input{
+	width:100%;
+}
+.relate .spliter{
+	height: 1px;
+	background: #ececec;
+}
+.relate .header .abstract>span{
+	color: gray;
+}
+.relate .header .abstract .preview{
+	min-height: 200px;
+	width:100%;
+	background: white;
+}
+.relate .fetcher >span{
+	color: gray;
+}
+.relate .fetcher{
+	margin-bottom: 10px;
+}
+.relate .fetcher .editor{
+	min-height: 200px;
+	background: white;
+	overflow: auto;
+	width: 100%;
+}
+.relate .op{
+	text-align: center;
+}
+.relate .op span[action]{
+	cursor: pointer;
+	padding: 4px 10px;
+	background: #999;
+}
+.relate .op span[action]:hover{
+	color: white;
+	background:#666;
+}
+-->
+</style>
+<script type="text/javascript">
+<!--
+$(document).ready(function(){
+	
+	$('#cj-popup-hidden').undelegate('.relate .inputs input','keyup');
+	$('#cj-popup-hidden').delegate('.relate .inputs input','keyup',function(e){
+		if(e.keyCode!=13){
+			return;
+		}
+		var url=$(this).val();
+		if(url==''){
+			alert('请输入地址');
+			return;
+		}
+		var the=$(this);
+		$.post('/views/fetch-href-connect.service',{url:url},function(data){
+			var map=$.parseJSON(data);
+			var editor=the.parents('.relate').find('.fetcher .editor');
+			editor.html(map.html);
+			the.parents('.relate').find('.header .title input').val(map.title);
+		}).error(function(e){
+			if(e.status==800){
+				window.location.href='/public/authlogin.html';
+				return;
+			}
+			alert(e.responseText);
+		});
+	});
+	$('#cj-popup-hidden').undelegate('.relate .op span[action]');
+	$('#cj-popup-hidden').delegate('.relate .op span[action]','click',function(e){
+		var the=$(this);
+		var title=the.parents('.relate').find('.header .title input').val();
+		if(title==''){
+			alert('标题为空');
+			return;
+		}
+		var html=the.parents('.relate').find('.fetcher .editor').html();
+		if(html==''||typeof html=='undefined'){
+			alert('没有内容');
+			return;
+		}
+		var sourcehref=the.parents('.relate').find('.inputs input').val();
+		if(sourcehref==''){
+			alert('引用源不明');
+			return;
+		}
+		var docid=$('#topic').attr('data-topic-id');
+		$.post('/post/create-connect.service',{docid:docid,title:title,source:sourcehref,html:html},function(data){
+			$('#cj-popup-hidden').hide();
+			$('.timeline-container .topic-timeline .timeline-padding > ul').append(data);
+		}).error(function(e){
+			if(e.status==800){
+				window.location.href='/public/authlogin.html';
+				return;
+			}
+			alert(e.responseText);
+		});
+	});
+});
+//-->
+</script>
+<div class="relate">
+	<div class="inputs">
+		<input placeholder="输入要接入的http地址，然后回车">
+		<div class="surports">支持网站：本站主题页面地址／网易新闻页面地址</div>
+	</div>
+	<div class="spliter"></div>
+	<div class="header">
+		<p class="title">
+			<input placeholder="自动获取标题，如果不正确请手动改">
+		</p>
+	</div>
+	<div class="fetcher">
+		<span>采集结果</span>
+		<div class="editor" contenteditable="true"></div>
+	</div>
+	<div class="op"><span action="mount">确认</span></div>
+</div>

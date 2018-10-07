@@ -1,0 +1,61 @@
+<style>
+<!--
+.view-connect{
+	padding: 100px 80px;
+	width:600px;
+	height: 680px;
+	position: relative;
+}
+.view-connect .title{
+	padding: 10px 0;
+	text-align: center;
+}
+.view-connect .publish{
+	color: gray;
+	text-align: center;
+}
+.view-connect .publish span{
+	padding: 0 10px;
+}
+.view-connect>.body{
+	margin-top: 20px;
+}
+.view-connect>span[del]{
+	display: block;
+	position: absolute;
+	padding: 4px 10px;
+	background: #999;
+	color: white;
+	top:20px;
+	right:20px;
+	cursor: pointer;
+}
+.view-connect>span[del]:hover{
+	background: #444;
+}
+-->
+</style>
+<script type="text/javascript">
+<!--
+$(document).ready(function(){
+	$('#cj-popup-hidden').undelegate('.view-connect >span[del]');
+	$('#cj-popup-hidden').delegate('.view-connect >span[del]','click',function(e){
+		var docid=$('#topic').attr('data-topic-id');
+		var connectid=$(this).parents('.view-connect').attr('connectid');
+		$.get('/post/delete-connect.service',{connectid:connectid,docid:docid},function(data){
+			$('#cj-popup-hidden').hide();
+			var it=$('.timeline-container .topic-timeline .timeline-padding > ul > li[connectid=\"'+connectid+'\"]');
+			it.remove();
+		}).error(function(e){
+			alert(e.responseText);
+		});
+	});
+});
+//-->
+</script>
+<div class="view-connect">
+<span del title="删除">X</span>
+	<div class="title"><a href="#"><h1>标题</h1></a></div>
+	<div class="publish"><span creator>CJ</span><span date>日期</span></div>
+	<div class="body">正文</div>
+</div>

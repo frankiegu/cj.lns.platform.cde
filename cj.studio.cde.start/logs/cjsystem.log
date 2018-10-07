@@ -1,0 +1,293 @@
+2016年09月13日 11:46:51  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：ls
+2016年09月13日 14:22:01  错误: cj.studio.cde.tools.pd.CubeConsole - 缺少参数：skip
+2016年09月13日 14:24:14  错误: cj.studio.cde.tools.pd.CubeConsole - For input string: "9223372036854775807"
+2016年09月13日 14:25:17  错误: cj.studio.cde.tools.pd.CubeConsole - For input string: "9223372036854775807"
+2016年09月13日 14:27:36  错误: cj.studio.cde.tools.pd.CubeConsole - For input string: "9223372036854775807"
+2016年09月13日 14:35:42  错误: cj.studio.cde.tools.pd.CubeConsole - 不认识的命令：bye
+2016年09月13日 14:47:05  错误: cj.studio.cde.tools.disk.DiskConsole - 不存在网盘cj或不存在立方体jofers0408
+2016年09月13日 14:47:20  错误: cj.studio.cde.tools.pd.PdConsole - 缺少参数：clazz
+2016年09月13日 14:47:32  错误: cj.studio.cde.tools.pd.PdConsole - 缺少参数：clazz
+2016年09月13日 22:08:02  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：veiw
+2016年09月13日 22:08:08  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：view
+2016年09月13日 22:08:45  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：view
+2016年09月13日 22:13:25  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：System.out.println(String.format("\t\t\t类型：%s",
+2016年09月13日 23:15:41  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：open
+2016年09月13日 23:22:50  错误: cj.studio.cde.tools.pd.PdConsole - invalid hexadecimal representation of an ObjectId: [/]
+2016年09月13日 23:23:38  错误: cj.studio.cde.tools.pd.PdConsole - invalid hexadecimal representation of an ObjectId: [/]
+2016年09月13日 23:24:04  错误: cj.studio.cde.tools.pd.PdConsole - invalid hexadecimal representation of an ObjectId: [/]
+2016年09月13日 23:24:41  错误: cj.studio.cde.tools.pd.PdConsole - invalid hexadecimal representation of an ObjectId: [/]
+2016年09月13日 23:27:15  错误: cj.studio.cde.tools.pd.PdConsole - invalid hexadecimal representation of an ObjectId: [/新闻view]
+2016年09月13日 23:41:57  错误: cj.studio.cde.tools.pd.PdConsole - invalid hexadecimal representation of an ObjectId: [/新闻]
+2016年09月13日 23:42:32  错误: cj.studio.cde.tools.pd.PdConsole - 事象：57d79e939334797277cfcaa4 已存在down分支：/新闻/本地新闻
+2016年09月13日 23:49:08  错误: cj.studio.cde.tools.pd.PdConsole - invalid hexadecimal representation of an ObjectId: [/新闻]
+2016年09月13日 23:49:30  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：57d79e939334797277cfcaa4
+2016年09月13日 23:49:33  错误: cj.studio.cde.tools.pd.PdConsole - invalid hexadecimal representation of an ObjectId: [/新闻]
+2016年09月13日 23:52:15  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：57d79e939334797277cfcaa4
+2016年09月13日 23:53:54  错误: cj.studio.cde.tools.pd.PdConsole - invalid hexadecimal representation of an ObjectId: [/新闻]
+2016年09月14日 00:11:10  错误: cj.studio.cde.tools.pd.PdConsole -  异常：java.lang.NullPointerException
+		at cj.studio.cde.PhenomenonDisk.getPhenomenons(PhenomenonDisk.java:496)
+		at cj.studio.cde.tools.pd.command.LsPhenCommand.doCommand(LsPhenCommand.java:25)
+		at cj.studio.cde.tools.Console.monitor(Console.java:109)
+		at cj.studio.cde.tools.pd.PdConsole.monitor(PdConsole.java:28)
+		at cj.studio.cde.tools.disk.command.OpenPdCommand.doCommand(OpenPdCommand.java:50)
+		at cj.studio.cde.tools.Console.monitor(Console.java:109)
+		at cj.studio.cde.tools.disk.DiskConsole.monitor(DiskConsole.java:31)
+		at cj.studio.cde.tools.CdeMain.main(CdeMain.java:43)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:497)
+		at cj.studio.ecm.adapter.AdapterInterrupter.invoke(AdapterInterrupter.java:129)
+		at cj.studio.ecm.adapter.IActuator$$EnhancerByCGLIB$$9e688d8c.exeCommand(<generated>:-1)
+		at cj.studio.cde.start.Main.main(Main.java:94)
+2016年09月14日 00:13:15  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：ivew
+2016年09月14日 00:13:26  错误: cj.studio.cde.tools.pd.PdConsole -  异常：java.lang.NullPointerException
+		at cj.studio.cde.PhenomenonDisk.getPhenomenons(PhenomenonDisk.java:496)
+		at cj.studio.cde.tools.pd.command.LsPhenCommand.doCommand(LsPhenCommand.java:25)
+		at cj.studio.cde.tools.Console.monitor(Console.java:109)
+		at cj.studio.cde.tools.pd.PdConsole.monitor(PdConsole.java:28)
+		at cj.studio.cde.tools.disk.command.OpenPdCommand.doCommand(OpenPdCommand.java:50)
+		at cj.studio.cde.tools.Console.monitor(Console.java:109)
+		at cj.studio.cde.tools.disk.DiskConsole.monitor(DiskConsole.java:31)
+		at cj.studio.cde.tools.CdeMain.main(CdeMain.java:43)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:497)
+		at cj.studio.ecm.adapter.AdapterInterrupter.invoke(AdapterInterrupter.java:129)
+		at cj.studio.ecm.adapter.IActuator$$EnhancerByCGLIB$$9e688d8c.exeCommand(<generated>:-1)
+		at cj.studio.cde.start.Main.main(Main.java:94)
+2016年09月14日 00:13:30  错误: cj.studio.cde.tools.pd.PdConsole - invalid hexadecimal representation of an ObjectId: [v]
+2016年09月14日 15:51:31  错误: cj.studio.cde.tools.pd.PdConsole - 分支未指定创建者
+2016年09月14日 15:52:04  错误: cj.studio.cde.tools.pd.PdConsole - 分支未指定创建者
+2016年09月14日 15:55:16  错误: cj.studio.cde.tools.pd.PdConsole - 2
+2016年09月14日 16:01:51  错误: cj.studio.cde.tools.pd.PdConsole - 2
+2016年09月14日 16:05:27  错误: cj.studio.cde.tools.pd.PdConsole - 分支未指定创建者
+2016年09月14日 16:07:16  错误: cj.studio.cde.tools.pd.PdConsole - 事象：57d901ef933479da26ed1d19 的分支：57d901ef933479da26ed1d1a上已存在项：台风"莫兰蒂"将袭闽粤
+2016年09月14日 16:58:38  错误: cj.studio.cde.tools.pd.PdConsole - 事象：57d9106d933479e0c8fca0fd 的分支：57d9106d933479e0c8fca0fe上已存在项：菲总统要轰走美国特种部队
+2016年09月14日 17:03:35  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：open
+2016年09月14日 19:12:24  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：open
+2016年09月15日 00:03:35  错误: cj.studio.cde.tools.pd.PdConsole -  异常：java.lang.NullPointerException
+		at cj.studio.cde.PhenomenonDisk.getTrunk(PhenomenonDisk.java:87)
+		at cj.studio.cde.PhenomenonDisk.mountPhenomenon(PhenomenonDisk.java:380)
+		at cj.studio.cde.tools.pd.command.MountPhenCommand.doCommand(MountPhenCommand.java:56)
+		at cj.studio.cde.tools.Console.monitor(Console.java:109)
+		at cj.studio.cde.tools.pd.PdConsole.monitor(PdConsole.java:28)
+		at cj.studio.cde.tools.disk.command.OpenPdCommand.doCommand(OpenPdCommand.java:50)
+		at cj.studio.cde.tools.Console.monitor(Console.java:109)
+		at cj.studio.cde.tools.disk.DiskConsole.monitor(DiskConsole.java:31)
+		at cj.studio.cde.tools.CdeMain.main(CdeMain.java:43)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:497)
+		at cj.studio.ecm.adapter.AdapterInterrupter.invoke(AdapterInterrupter.java:129)
+		at cj.studio.ecm.adapter.IActuator$$EnhancerByCGLIB$$6a939ab4.exeCommand(<generated>:-1)
+		at cj.studio.cde.start.Main.main(Main.java:94)
+2016年09月15日 00:04:23  错误: cj.studio.cde.tools.pd.PdConsole -  异常：java.lang.NullPointerException
+		at cj.studio.cde.PhenomenonDisk.getTrunk(PhenomenonDisk.java:87)
+		at cj.studio.cde.PhenomenonDisk.mountPhenomenon(PhenomenonDisk.java:380)
+		at cj.studio.cde.tools.pd.command.MountPhenCommand.doCommand(MountPhenCommand.java:56)
+		at cj.studio.cde.tools.Console.monitor(Console.java:109)
+		at cj.studio.cde.tools.pd.PdConsole.monitor(PdConsole.java:28)
+		at cj.studio.cde.tools.disk.command.OpenPdCommand.doCommand(OpenPdCommand.java:50)
+		at cj.studio.cde.tools.Console.monitor(Console.java:109)
+		at cj.studio.cde.tools.disk.DiskConsole.monitor(DiskConsole.java:31)
+		at cj.studio.cde.tools.CdeMain.main(CdeMain.java:43)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:497)
+		at cj.studio.ecm.adapter.AdapterInterrupter.invoke(AdapterInterrupter.java:129)
+		at cj.studio.ecm.adapter.IActuator$$EnhancerByCGLIB$$6a939ab4.exeCommand(<generated>:-1)
+		at cj.studio.cde.start.Main.main(Main.java:94)
+2016年09月15日 00:06:45  错误: cj.studio.cde.tools.pd.PdConsole - 源事象:null 缺少内容
+2016年09月15日 00:10:17  错误: cj.studio.cde.tools.pd.PdConsole -  异常：java.lang.NullPointerException
+		at cj.studio.cde.tools.pd.command.ViewPhenCommand.doCommand(ViewPhenCommand.java:38)
+		at cj.studio.cde.tools.Console.monitor(Console.java:109)
+		at cj.studio.cde.tools.pd.PdConsole.monitor(PdConsole.java:28)
+		at cj.studio.cde.tools.disk.command.OpenPdCommand.doCommand(OpenPdCommand.java:47)
+		at cj.studio.cde.tools.Console.monitor(Console.java:109)
+		at cj.studio.cde.tools.disk.DiskConsole.monitor(DiskConsole.java:31)
+		at cj.studio.cde.tools.CdeMain.main(CdeMain.java:43)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:497)
+		at cj.studio.ecm.adapter.AdapterInterrupter.invoke(AdapterInterrupter.java:129)
+		at cj.studio.ecm.adapter.IActuator$$EnhancerByCGLIB$$6a939ab4.exeCommand(<generated>:-1)
+		at cj.studio.cde.start.Main.main(Main.java:94)
+2016年09月15日 00:18:48  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：mountPhone
+2016年09月15日 00:18:57  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：mountPhon
+2016年09月15日 00:19:05  错误: cj.studio.cde.tools.pd.PdConsole - 目标分支不存在.
+2016年09月15日 00:19:40  错误: cj.studio.cde.tools.pd.PdConsole - 事象：57d974a193347914714ebebe 的分支：57d974a193347914714ebebf上已存在项：王晓东任湖北省人民政府代理省长
+2016年09月15日 00:21:44  错误: cj.studio.cde.tools.pd.PdConsole -  异常：java.lang.NullPointerException
+		at cj.studio.cde.tools.pd.command.ViewPhenCommand.doCommand(ViewPhenCommand.java:38)
+		at cj.studio.cde.tools.Console.monitor(Console.java:109)
+		at cj.studio.cde.tools.pd.PdConsole.monitor(PdConsole.java:28)
+		at cj.studio.cde.tools.disk.command.OpenPdCommand.doCommand(OpenPdCommand.java:47)
+		at cj.studio.cde.tools.Console.monitor(Console.java:109)
+		at cj.studio.cde.tools.disk.DiskConsole.monitor(DiskConsole.java:31)
+		at cj.studio.cde.tools.CdeMain.main(CdeMain.java:43)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:497)
+		at cj.studio.ecm.adapter.AdapterInterrupter.invoke(AdapterInterrupter.java:129)
+		at cj.studio.ecm.adapter.IActuator$$EnhancerByCGLIB$$6a939ab4.exeCommand(<generated>:-1)
+		at cj.studio.cde.start.Main.main(Main.java:94)
+2016年09月15日 00:24:19  错误: cj.studio.cde.tools.pd.PdConsole - 缺少参数：-c
+2016年09月15日 00:24:41  错误: cj.studio.cde.tools.pd.PdConsole - Unrecognized option: -in
+2016年09月15日 10:38:40  错误: cj.studio.cde.tools.pd.PdConsole -  异常：java.lang.NullPointerException
+		at cj.studio.cde.tools.pd.command.ViewPhenCommand.doCommand(ViewPhenCommand.java:38)
+		at cj.studio.cde.tools.Console.monitor(Console.java:109)
+		at cj.studio.cde.tools.pd.PdConsole.monitor(PdConsole.java:28)
+		at cj.studio.cde.tools.disk.command.OpenPdCommand.doCommand(OpenPdCommand.java:47)
+		at cj.studio.cde.tools.Console.monitor(Console.java:109)
+		at cj.studio.cde.tools.disk.DiskConsole.monitor(DiskConsole.java:31)
+		at cj.studio.cde.tools.CdeMain.main(CdeMain.java:43)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:497)
+		at cj.studio.ecm.adapter.AdapterInterrupter.invoke(AdapterInterrupter.java:129)
+		at cj.studio.ecm.adapter.IActuator$$EnhancerByCGLIB$$32b4c77a.exeCommand(<generated>:-1)
+		at cj.studio.cde.start.Main.main(Main.java:94)
+2016年09月15日 10:42:03  错误: cj.studio.cde.tools.pd.PdConsole - invalid hexadecimal representation of an ObjectId: [933993939]
+2016年09月17日 00:48:22  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：unountEntry
+2016年09月17日 00:51:34  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：unmount
+2016年09月17日 00:51:40  错误: cj.studio.cde.tools.pd.PdConsole - 项不存在：57d977bf933479162af9a693
+2016年09月17日 01:21:01  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：unmount
+2016年09月17日 01:57:41  错误: cj.studio.cde.tools.pd.PdConsole - 格式：网盘名->存储空间->事象标识
+2016年09月17日 01:59:27  错误: cj.studio.cde.tools.pd.PdConsole - 格式：网盘名->存储空间->事象标识
+2016年09月17日 02:03:08  错误: cj.studio.cde.tools.pd.PdConsole - 格式：网盘名->存储空间->事象标识
+2016年09月17日 02:03:55  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：ivew
+2016年09月17日 02:06:25  错误: cj.studio.cde.tools.pd.PdConsole - 缺少参数：-c
+2016年09月17日 02:07:10  错误: cj.studio.cde.tools.pd.PdConsole - 格式：网盘名->存储空间->事象标识
+2016年09月17日 02:10:04  错误: cj.studio.cde.tools.pd.PdConsole -  异常：java.lang.NullPointerException
+		at cj.studio.cde.PhenomenonDisk.getBranchFullPath(PhenomenonDisk.java:218)
+		at cj.studio.cde.PhenomenonDisk.unmountEntry(PhenomenonDisk.java:500)
+		at cj.studio.cde.tools.pd.command.unMountEntryCommand.doCommand(unMountEntryCommand.java:35)
+		at cj.studio.cde.tools.Console.monitor(Console.java:109)
+		at cj.studio.cde.tools.pd.PdConsole.monitor(PdConsole.java:28)
+		at cj.studio.cde.tools.disk.command.OpenPdCommand.doCommand(OpenPdCommand.java:47)
+		at cj.studio.cde.tools.Console.monitor(Console.java:109)
+		at cj.studio.cde.tools.disk.DiskConsole.monitor(DiskConsole.java:31)
+		at cj.studio.cde.tools.CdeMain.main(CdeMain.java:43)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:497)
+		at cj.studio.ecm.adapter.AdapterInterrupter.invoke(AdapterInterrupter.java:129)
+		at cj.studio.ecm.adapter.IActuator$$EnhancerByCGLIB$$24315aa1.exeCommand(<generated>:-1)
+		at cj.studio.cde.start.Main.main(Main.java:94)
+2016年09月17日 02:12:14  错误: cj.studio.cde.tools.pd.PdConsole -  异常：java.lang.NullPointerException
+		at cj.studio.cde.PhenomenonDisk.getBranchFullPath(PhenomenonDisk.java:218)
+		at cj.studio.cde.PhenomenonDisk.unmountEntry(PhenomenonDisk.java:500)
+		at cj.studio.cde.tools.pd.command.unMountEntryCommand.doCommand(unMountEntryCommand.java:35)
+		at cj.studio.cde.tools.Console.monitor(Console.java:109)
+		at cj.studio.cde.tools.pd.PdConsole.monitor(PdConsole.java:28)
+		at cj.studio.cde.tools.disk.command.OpenPdCommand.doCommand(OpenPdCommand.java:47)
+		at cj.studio.cde.tools.Console.monitor(Console.java:109)
+		at cj.studio.cde.tools.disk.DiskConsole.monitor(DiskConsole.java:31)
+		at cj.studio.cde.tools.CdeMain.main(CdeMain.java:43)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:497)
+		at cj.studio.ecm.adapter.AdapterInterrupter.invoke(AdapterInterrupter.java:129)
+		at cj.studio.ecm.adapter.IActuator$$EnhancerByCGLIB$$24315aa1.exeCommand(<generated>:-1)
+		at cj.studio.cde.start.Main.main(Main.java:94)
+2016年09月17日 02:24:52  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：removeBrach
+2016年09月17日 02:25:38  错误: cj.studio.cde.tools.pd.PdConsole - 格式：网盘名->存储空间->事象标识
+2016年09月17日 02:25:49  错误: cj.studio.cde.tools.pd.PdConsole - 源事象:null 缺少内容
+2016年09月17日 02:30:17  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：unountEntry
+2016年09月17日 02:32:32  错误: cj.studio.cde.tools.pd.PdConsole - 格式：网盘名->存储空间->事象标识
+2016年09月17日 02:39:25  错误: cj.studio.cde.tools.pd.PdConsole - 格式：网盘名->存储空间->事象标识
+2016年09月17日 02:47:11  错误: cj.studio.cde.tools.pd.PdConsole - 格式：网盘名->存储空间->事象标识
+2016年09月17日 02:47:20  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：57dc34b29334795bdb4cbae5
+2016年09月17日 02:53:47  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：57dc27b49334795520589a10
+2016年09月17日 02:57:17  错误: cj.studio.cde.tools.pd.PdConsole - 格式：网盘名->存储空间->事象标识
+2016年09月17日 03:14:39  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：lsCreators
+2016年09月17日 03:15:59  错误: cj.studio.cde.tools.pd.PdConsole - 不认识的命令：lscreator
+2016年10月28日 14:58:46  错误: cj.studio.cde.tools.cat.CatConsole - Invalid BSON field name coordinates
+2016年10月28日 15:01:34  错误: cj.studio.cde.tools.cat.CatConsole - Invalid BSON field name coordinates
+2016年10月28日 15:32:26  错误: cj.studio.cde.tools.cat.CatConsole - 不认识的命令：/Users/carocean/studio/cde/cmdtools/cde/catprimaries.json
+2016年10月28日 16:29:12  错误: cj.studio.cde.tools.cat.CatConsole - 地址格式错。缺少站点
+2016年10月28日 16:29:48  错误: cj.studio.cde.tools.cat.CatConsole - 未指定第三级分类，平行分类一定属于三级分类下.路径：c2csite://
+2016年10月28日 16:42:57  错误: cj.studio.cde.tools.cat.CatConsole - Format specifier '%s'
+2016年10月28日 19:58:59  错误: cj.studio.cde.tools.cat.CatConsole - 缺少参数：clazz
+2016年10月28日 20:01:46  错误: cj.studio.cde.tools.cat.CatConsole - 缺少参数：colname
+2016年10月28日 20:14:26  错误: cj.studio.cde.tools.cat.CatConsole - 不认识的命令：System.out.println(String.format("\t路径：%s
+2016年10月28日 20:17:03  错误: cj.studio.cde.tools.cat.CatConsole - Unrecognized option: -para
+2016年10月28日 21:10:57  错误: cj.studio.cde.tools.cat.CatConsole - 地址格式错。缺少站点
+2016年10月28日 22:20:56  错误: cj.studio.cde.tools.cat.CatConsole - 不认识的命令：lslsdoc
+2016年10月28日 22:21:56  错误: cj.studio.cde.tools.cat.CatConsole - 地址格式错。缺少站点
+2016年10月28日 22:22:04  错误: cj.studio.cde.tools.cat.CatConsole - 未指定第三级分类，平行分类一定属于三级分类下.路径：c2csite://
+2016年10月28日 22:25:15  错误: cj.studio.cde.tools.cat.CatConsole - duplicate key: nianfenjijie
+2016年10月28日 22:27:42  错误: cj.studio.cde.tools.cat.CatConsole - Unrecognized option: -para
+2016年10月28日 22:28:46  错误: cj.studio.cde.tools.cat.CatConsole - Invalid BSON field name tuple.document
+2016年10月28日 22:37:40  错误: cj.studio.cde.tools.cat.CatConsole - Unrecognized option: -p
+2016年10月29日 19:28:11  错误: cj.studio.cde.tools.cat.CatConsole - 地址格式错。缺少站点
+2016年10月30日 19:22:39  错误: cj.studio.cde.tools.disk.DiskConsole - 不认识的命令：lsdoc
+2016年10月30日 19:23:02  错误: cj.studio.cde.tools.disk.DiskConsole - 不存在网盘：$disk.data
+2016年10月30日 19:29:29  错误: cj.studio.cde.tools.disk.DiskConsole - 不认识的命令：lsdoc
+2016年12月16日 01:22:11  错误: cj.studio.cde.tools.cat.CatConsole - /Users/cj/Desktop/1.txt (No such file or directory)
+2016年12月17日 22:26:52  错误: cj.studio.cde.tools.cat.CatConsole - 缺少参数：-from
+2016年12月17日 22:27:02  错误: cj.studio.cde.tools.cat.CatConsole -  异常：java.lang.NullPointerException
+		at cj.studio.cde.site.SiteSchema.exportsToFile(SiteSchema.java:222)
+		at cj.studio.cde.tools.cat.command.ExportsSchemaCommand2.doCommand(ExportsSchemaCommand2.java:38)
+		at cj.studio.cde.tools.Console.monitor(Console.java:109)
+		at cj.studio.cde.tools.cat.CatConsole.monitor(CatConsole.java:30)
+		at cj.studio.cde.tools.disk.command.OpenSiteCommand.doCommand(OpenSiteCommand.java:49)
+		at cj.studio.cde.tools.Console.monitor(Console.java:109)
+		at cj.studio.cde.tools.disk.DiskConsole.monitor(DiskConsole.java:31)
+		at cj.studio.cde.tools.CdeMain.main(CdeMain.java:43)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(NativeMethodAccessorImpl.java:-2)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:497)
+		at cj.studio.ecm.adapter.AdapterInterrupter.invoke(AdapterInterrupter.java:129)
+		at cj.studio.ecm.adapter.IActuator$$EnhancerByCGLIB$$b9b9ee36.exeCommand(<generated>:-1)
+		at cj.studio.cde.start.Main.main(Main.java:94)
+2016年12月17日 22:41:07  错误: cj.studio.cde.tools.cat.CatConsole - 冲突：已存在站名：site.news
+2016年12月17日 23:24:26  错误: cj.studio.cde.tools.cat.CatConsole - Unrecognized option: -from
+2016年12月17日 23:24:35  错误: cj.studio.cde.tools.cat.CatConsole - 缺少参数：-to
+2016年12月26日 10:57:14  错误: cj.studio.cde.tools.cat.CatConsole - 不认识的命令：importpara/Users/carocean/studio/cde/cmdtools/cde/site.parallels-zhaopin.json
+2017年01月10日 14:35:56  错误: cj.studio.cde.tools.cat.CatConsole - 不认识的命令：lssite
+2017年01月10日 14:40:58  错误: cj.studio.cde.tools.cat.CatConsole - Unrecognized option: -from
+2017年01月10日 14:41:32  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 8 column 4
+2017年01月10日 14:41:59  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 17 column 6
+2017年01月10日 14:42:14  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 41 column 6
+2017年01月10日 14:42:37  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 65 column 6
+2017年01月10日 14:42:47  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 82 column 6
+2017年01月10日 14:42:56  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 111 column 6
+2017年01月10日 14:43:06  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 140 column 6
+2017年01月10日 14:43:15  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 164 column 4
+2017年01月10日 14:43:56  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 173 column 6
+2017年01月10日 14:44:15  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 208 column 6
+2017年01月10日 14:44:37  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 243 column 6
+2017年01月10日 14:44:52  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 266 column 6
+2017年01月10日 14:45:07  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 316 column 6
+2017年01月10日 14:45:22  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 345 column 6
+2017年01月10日 14:45:53  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 386 column 6
+2017年01月10日 14:46:14  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 434 column 6
+2017年01月10日 15:35:43  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 17 column 6
+2017年01月10日 15:36:26  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 64 column 6
+2017年01月10日 15:36:39  错误: cj.studio.cde.tools.cat.CatConsole - 不认识的命令：/Users/carocean/studio/cde/cmdtools/cde/wi-go.json
+2017年01月10日 15:36:46  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 105 column 6
+2017年01月10日 15:36:55  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 152 column 6
+2017年01月10日 15:37:05  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 221 column 6
+2017年01月10日 15:37:14  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 268 column 6
+2017年01月10日 15:37:23  错误: cj.studio.cde.tools.cat.CatConsole - cj.ultimate.gson2.com.google.gson.stream.MalformedJsonException: Unterminated object at line 309 column 6
+2017年01月10日 15:41:26  错误: cj.studio.cde.tools.cat.CatConsole - 冲突！已存在一级分类：wigo-atm
+2017年01月10日 22:42:33  错误: cj.studio.cde.tools.cat.CatConsole - duplicate key: cpgl
+2017年01月10日 22:45:53  错误: cj.studio.cde.tools.cat.CatConsole - 冲突！已存在一级分类：gkk
+2017年01月12日 13:54:00  错误: cj.studio.cde.tools.cat.CatConsole - 冲突：已存在站名：site.wigo
+2017年01月12日 13:54:39  错误: cj.studio.cde.tools.cat.CatConsole - 冲突：已存在站名：site.wigo
+2017年01月12日 13:54:48  错误: cj.studio.cde.tools.cat.CatConsole - 冲突：已存在站名：site.wisdoms
+2017年01月12日 13:55:08  错误: cj.studio.cde.tools.cat.CatConsole - 冲突：已存在站名：site.wisdoms
+2017年01月12日 14:06:39  错误: cj.studio.cde.tools.cat.CatConsole - 缺少参数：-to
+2017年01月12日 14:31:34  错误: cj.studio.cde.tools.cat.CatConsole - 不认识的命令：import
+2017年01月12日 14:32:07  错误: cj.studio.cde.tools.cat.CatConsole - 不认识的命令：import
+2017年03月08日 19:53:29  错误: cj.studio.cde.tools.cat.CatConsole - 冲突：已存在站名：site.wisdoms

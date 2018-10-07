@@ -1,0 +1,217 @@
+<style>
+<!--
+.imessager .inbox-body .inbox-wrap {
+	border: none;
+	position: relative;
+	padding-top: 60px;
+	padding-bottom: 125px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.imessager .inbox-body .inbox-wrap .inbox-header {
+	border-bottom: 1px solid #e4e4e4;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	height: 50px;
+	background: white;
+	z-index: 9999;
+}
+.imessager .inbox-body .inbox-wrap .inbox-header .pillbox-list{
+	overflow: auto;
+	height: 30px;
+	margin-right: 20px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.imessager .inbox-body .inbox-wrap .inbox-header .pill-edit{
+	display: inline-block;
+	position: absolute;
+	bottom:0;
+	right:0;
+	padding: 3px 5px;
+}
+.imessager .inbox-body .inbox-wrap .inbox-header .pill-edit:hover{
+	background: #666;
+	color: white;
+}
+.imessager .inbox-body .inbox-wrap .compose-panel {
+	height: 300px;
+	overflow: auto;
+	padding-right: 15px;
+}
+
+.imessager .inbox-body .inbox-wrap .compose-panel .user-info .user-detail .title
+	{
+	background: #cfedfb;
+	padding: 10px;
+	color: #333;
+	line-height: 24px;
+	-moz-border-radius: 15px; /* Gecko browsers */
+	-webkit-border-radius: 15px; /* Webkit browsers */
+	border-radius: 15px;
+}
+
+.imessager .inbox-body .inbox-wrap .compose-panel .message-row {
+	margin: 15px 0;
+}
+
+.imessager .inbox-body .inbox-wrap .compose-panel .message-me {
+	float: right;
+}
+
+.imessager .inbox-body .inbox-wrap .compose-panel .message-me .user-info
+	{
+	float: right;
+}
+
+.imessager .inbox-body .inbox-wrap .compose-panel .message-me .user-detail
+	{
+	float: right;
+}
+
+.imessager .inbox-body .inbox-wrap .compose-panel .user-info.small {
+	width: 400px;
+}
+
+.imessager .inbox-body .inbox-wrap .compose-panel .timestamp {
+	padding-left: 10px;
+}
+
+.imessager .inbox-body .inbox-wrap .compose-box {
+	border: 1px solid #34b3e4;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.imessager .inbox-body .inbox-wrap .compose-box>.typed {
+	height: 80px;
+}
+-->
+</style>
+<script type="text/javascript">
+<!--
+$(document).ready(function(){
+	var panel=$('.imessager .inbox-body .inbox-wrap .compose-panel');
+	panel.scrollTop(panel[0].scrollHeight);
+	var skip=panel.find('.message-table').attr('skip');
+	$('.inbox-wrap .compose-panel').scroll(function(e){
+		var the=$(this);
+		var scrollTop=$(this).scrollTop();
+		if(scrollTop==0){//拉取数据
+			var table=the.find('.message-table');
+			var thread=$('.imessager-ul .imessager-li.thread-selected').attr('thread');
+			$.post('/post/imessager/get-messages.html',{thread:thread,skip:skip},function(data){
+				skip=parseInt(skip)+10;
+				table.prepend(data);
+				the.scrollTop(16);
+			}).error(function(e){
+				alert(e.responseText);
+			});
+		}
+	});
+});
+//-->
+</script>
+<div class="inbox-wrap">
+	<div class="inbox-header">
+		<ul class="pillbox-list">
+			<li class="pill" ><a class="pill-name"><span
+					class="name">wu</span><span class="nick">李小狗</span></a></li>
+			<li class="pill" ><a class="pill-name"><span
+					class="name">wu</span><span class="nick">李小狗</span></a></li>
+		</ul>
+		<a class="pill-edit" title="修改收件人列表"><i class="fa fa-plus" aria-hidden="true"></i></a>
+	</div>
+	<div class="message-hidden" style="display: none;">
+		<li class="message-row">
+				<div class="message-other">
+					<div id="ember1585" class="ember-view user-info small">
+						<div class="user-image">
+							<a href="/users/wuct" data-user-card="wuct"><img alt=""
+								src="//reactchina.sxlcdn.com/user_avatar/react-china.org/wuct/90/5767_1.png"
+								class="avatar" title="wuct" width="45" height="45"></a>
+						</div>
+						<div class="user-detail">
+							<div class="name-line">
+								<span class="username"><a href="/users/wuct"
+									data-user-card="wuct">wuct</a></span> <span class="name">赵向彬</span><span
+									title="2019年12月30日" class="timestamp">9:30</span>
+							</div>
+							<div class="title">我想告诉你个事我想告诉你个事我想告诉你个事我想告诉你个事我想告诉你个事我想告诉你个事</div>
+						</div>
+					</div>
+				</div>
+			</li>
+	</div>
+	<div class="compose-panel">
+		<ul class="message-table">
+			<li class="message-row message-row-other clearfix">
+				<div class="message-other">
+					<div id="ember1585" class="ember-view user-info small">
+						<div class="user-image">
+							<a href="/users/wuct" data-user-card="wuct"><img alt=""
+								src="//reactchina.sxlcdn.com/user_avatar/react-china.org/wuct/90/5767_1.png"
+								class="avatar" title="wuct" width="45" height="45"></a>
+						</div>
+						<div class="user-detail">
+							<div class="name-line">
+								<span class="username"><a href="/users/wuct"
+									data-user-card="wuct">wuct</a></span> <span class="name">赵向彬</span><span
+									title="2019年12月30日" class="timestamp">9:30</span>
+							</div>
+							<div class="title">我想告诉你个事我想告诉你个事我想告诉你个事我想告诉你个事我想告诉你个事我想告诉你个事</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="message-row message-row-me clearfix">
+				<div class="message-me clearfix">
+					<div id="ember1585" class="ember-view user-info small">
+						<div class="user-detail">
+							<p class="timestamp" style="text-align: right; margin: 0;">9:23</p>
+							<div class="title">我想告诉你个事我想告诉你个事我想告诉你个事我想告诉你个事我想告诉你个事我想告诉你个事</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="message-row">
+				<div class="message-other">
+					<div id="ember1585" class="ember-view user-info small">
+						<div class="user-image">
+							<a href="/users/wuct" data-user-card="wuct"><img alt=""
+								src="//reactchina.sxlcdn.com/user_avatar/react-china.org/wuct/90/5767_1.png"
+								class="avatar" title="wuct" width="45" height="45"></a>
+						</div>
+						<div class="user-detail">
+							<div class="name-line">
+								<span class="username"><a href="/users/wuct"
+									data-user-card="wuct">wuct</a></span> <span class="name">赵向彬</span><span
+									title="2019年12月30日" class="timestamp">9:30</span>
+							</div>
+							<div class="title">我想告诉你个事我想告诉你个事我想告诉你个事我想告诉你个事我想告诉你个事我想告诉你个事</div>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="compose-box">
+		<textarea class="typed" rows="" cols=""
+			placeholder="Write your message..."></textarea>
+		<div class="compose-action-bar">
+			<div class="send-bar">
+				<div id="enter-to-send">
+					<input id="enter-to-send-checkbox" class="send-option" checked=""
+						type="checkbox"> <label class="send-option-label"
+						for="enter-to-send-checkbox">press enter to send</label>
+				</div>
+				<button type="submit" class="message-submit submitting">Send</button>
+			</div>
+		</div>
+	</div>
+</div>
